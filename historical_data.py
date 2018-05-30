@@ -10,11 +10,11 @@ import cufflinks as cf
 
 if __name__ == '__main__':
     parse = argparse.ArgumentParser()
-    parse.add_argument("file", type=str, help="b3 historical data .txt file")
+    parse.add_argument("symbol", type=str, help="b3 symbol code")
     args = parse.parse_args()
     columns = []
     registers = []
-    with open(args.file, 'r') as f:
+    with open('./' + args.symbol + '_registers.txt', 'r') as f:
         lines = f.readlines()
         for i in range(len(lines)):
             b3Register = B3Register(lines[i])
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     data = np.array(registers)
     df = pd.DataFrame(data=data[0:, 0:], columns=columns)
     # get registers from a particular ticket
-    ticketRegisters = df[df['negotiationCode'] == 'UGPA3']
+    ticketRegisters = df[df['negotiationCode'] == args.symbol]
     # choose attributes
     attributes = ['closePrice', 'openPrice',
                   'maxPrice', 'minPrice', 'negotiationVolume', 'quoteFactor']
@@ -37,9 +37,6 @@ if __name__ == '__main__':
     for att in attributes:
         quotes.loc[:, att] = pd.to_numeric(quotes[att])
     sup, supIds = computeResistenceLines(quotes.openPrice, quotes.closePrice, 0.01)
-    # Calculate the 20 and 100 days moving averages of the closing prices
-    short_rolling = quotes.loc[:, 'closePrice'].rolling(window=10).mean()
-    long_rolling = quotes.loc[:, 'closePrice'].rolling(window=20).mean()
     # relative returns
     returns = quotes.loc[:, 'closePrice'].pct_change(1)
     log_returns = np.log(quotes.closePrice).diff()
@@ -51,6 +48,28 @@ if __name__ == '__main__':
         logReturns.append(log_returns[c].cumsum()[0])
     for c in range(len(log_returns)):
         relativeReturns.append(100*(np.exp(log_returns[c].cumsum()[0]) - 1))
+    graphs = []
+    ##################################### Y2 ##########################################
+    # SMAs
+    short_rolling = quotes.loc[:, 'closePrice'].rolling(window=21).mean()
+    long_rolling = quotes.loc[:, 'closePrice'].rolling(window=200).mean()
+    trace_short = go.Scatter(yaxis='y2', x=dates, y=short_rolling,
+                             name='SMA21', line=dict(dash='dot'),  hoverinfo = 'none')
+    long_short = go.Scatter(yaxis='y2', x=dates, y=long_rolling,
+                             name='SMA200', line=dict(dash='dot'),  hoverinfo = 'none')
+    graphs.append(trace_short)
+    graphs.append(long_short)
+    # Candles
+    trace = go.Candlestick(name='candles',
+                           yaxis='y2',
+                           x=dates,
+                           open=quotes.openPrice,
+                           high=quotes.maxPrice,
+                           low=quotes.minPrice,
+                           close=quotes.closePrice,
+                           increasing=dict(line=dict(color='rgb(32,155,160)')),
+                           decreasing=dict(line=dict(color='rgb(253,93,124)')))
+    graphs.append(trace)
     # Bollinger bands
     bb_avg, bb_upper, bb_lower = bollingerBands(quotes.loc[:,'closePrice'])
     bbLower = go.Scatter(x=dates, y=bb_upper, yaxis='y2', 
@@ -61,6 +80,28 @@ if __name__ == '__main__':
                          line = dict( width = 1 ),
                          marker=dict(color='#ccc'), hoverinfo='none',
                          legendgroup='Bollinger Bands', showlegend=False )
+    for i in range(len(sup)):
+        s = sup[i]
+        supId = supIds[i]
+        if len(s) > 5:
+            graphs.append(go.Scatter(yaxis='y2', x=dates[supId + [len(dates) - 1]], y=(len(supId) + 1) * [np.max(s)],
+                               line=dict(width='1'), showlegend=False, hoverinfo = 'none'))
+    graphs.append(bbUpper)
+    graphs.append(bbLower)
+    ##################################### Y4 ##########################################
+    # RSI
+    rsi_data = computeRSI(quotes.closePrice)
+    rsi = go.Scatter(yaxis='y4', x=dates, y=rsi_data,
+                        line = dict(color='#ccc', width = 1 ),
+                         mode='lines',
+                         hoverinfo='none', 
+                         showlegend=False, name='RSI')
+    graphs.append(go.Scatter(yaxis='y4', x=dates[[0, len(dates) - 1]], y=(2 * [80]),
+        mode='lines', line=dict(color='#acc',width=2), showlegend=False, hoverinfo='none'))
+    graphs.append(go.Scatter(yaxis='y4', x=dates[[0, len(dates) - 1]], y=(2 * [20]),
+        mode='lines', line=dict(color='#acc',width=2), showlegend=False, hoverinfo='none'))
+    graphs.append(rsi)
+    ##################################### Y1 ##########################################
     # volume data
     INCREASING_COLOR = '#17BECF'
     DECREASING_COLOR = '#7F7F7F'
@@ -73,26 +114,19 @@ if __name__ == '__main__':
     volume = go.Bar(yaxis='y', x=dates, y=quotes.negotiationVolume,
                     marker=dict(color=colors),
                     name='Volume')
-    trace = go.Candlestick(name='candles',
-                           yaxis='y2',
-                           x=dates,
-                           open=quotes.openPrice,
-                           high=quotes.maxPrice,
-                           low=quotes.minPrice,
-                           close=quotes.closePrice,
-                           increasing=dict(line=dict(color='rgb(32,155,160)')),
-                           decreasing=dict(line=dict(color='rgb(253,93,124)')))
-    trace_short = go.Scatter(yaxis='y2', x=dates, y=short_rolling,
-                             name='SMA10', line=dict(dash='dot'),  hoverinfo = 'none')
-    long_short = go.Scatter(yaxis='y2', x=dates, y=long_rolling,
-                             name='SMA20', line=dict(dash='dot'),  hoverinfo = 'none')
+    graphs.append(volume)
+    ##################################### Y3 ##########################################
     relative_returns = go.Scatter(yaxis='y3', x=dates, y=relativeReturns,
                              name='SMA20', line=dict(dash='dot'))
     log_returns = go.Scatter(yaxis='y3', x=dates, y=logReturns,
                              name='SMA20', line=dict(dash='dot'))
+    # graphs.append(relative_returns)
+    # graphs.append(log_returns)
+    ###################################################################################
     layout = go.Layout(
-        title='Double Y Axis Example',
+        title= args.symbol + ' History',
         xaxis=dict(
+            rangeslider = dict(visible= False),
             rangeselector=dict(
                 x=0, y=0.9,
                 bgcolor='rgba(150, 200, 250, 0.4)',
@@ -105,8 +139,8 @@ if __name__ == '__main__':
                          label='1yr',
                          step='year',
                          stepmode='backward'),
-                    dict(count=3,
-                         label='3 mo',
+                    dict(count=4,
+                         label='4 mo',
                          step='month',
                          stepmode='backward'),
                     dict(count=1,
@@ -117,8 +151,8 @@ if __name__ == '__main__':
                 ])),
         ),
         yaxis=dict(
-            title='Negotiation Volume',
-            domain = [0, 0.2], 
+            title='Volume',
+            domain = [0, 0.1], 
             showticklabels = False
         ),
         yaxis2=dict(
@@ -129,32 +163,29 @@ if __name__ == '__main__':
             tickfont=dict(
                 color='rgb(148, 103, 189)'
             ),
-            domain = [0.2, 1.0],
+            domain = [0.4, 1.0],
             anchor='free',
             # overlaying='y',
             # side='right',
         ),
         yaxis3=dict(
             title='as',
-            domain = [0.2, 1.0],
+            domain = [0.4, 1.0],
             overlaying='y', 
             # anchor='free',
             side='right',
             hoverformat = '.2f%'
             # showticklabels = False
         ),
+        yaxis4=dict(
+            title='RSI',
+            domain = [0.1, 0.4], 
+        ),
+
         #paper_bgcolor='rgb(44,58,71)',
         #plot_bgcolor='rgb(44,58,71)'
     )
-
-    data = [trace, trace_short, long_short, volume, bbLower, bbUpper, relative_returns]
-    for i in range(len(sup)):
-        s = sup[i]
-        supId = supIds[i]
-        if len(s) > 5:
-            data.append(go.Scatter(yaxis='y2', x=dates[supId + [len(dates) - 1]], y=(len(supId) + 1) * [np.mean(s)],
-                               name='SMA20', line=dict(dash='dot'),  hoverinfo = 'none'))
-    fig = go.Figure(data=data, layout=layout)
+    fig = go.Figure(data=graphs, layout=layout)
     py.offline.plot(fig, filename='simple_candlestick')
 
     # with plt.xkcd():
