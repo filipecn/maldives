@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from b3_register import B3Register
 from technical_analysis import *
+from utils import *
 import plotly as py
 import plotly.graph_objs as go
 import cufflinks as cf
@@ -37,19 +38,20 @@ if __name__ == '__main__':
     for att in attributes:
         quotes.loc[:, att] = pd.to_numeric(quotes[att])
     sup, supIds = computeResistenceLines(quotes.openPrice, quotes.closePrice, 0.01)
-    # relative returns
-    returns = quotes.loc[:, 'closePrice'].pct_change(1)
-    log_returns = np.log(quotes.closePrice).diff()
-    returns[0] = 0
-    log_returns[0] = 0
-    relativeReturns = []
-    logReturns = []
-    for c in range(len(log_returns)):
-        logReturns.append(log_returns[c].cumsum()[0])
-    for c in range(len(log_returns)):
-        relativeReturns.append(100*(np.exp(log_returns[c].cumsum()[0]) - 1))
     graphs = []
     ##################################### Y2 ##########################################
+    INCREASING_COLOR = '#17BECF'
+    DECREASING_COLOR = '#7F7F7F'
+    # pips
+    pips = perceptuallyImportantPoints(quotes.closePrice)
+    graphs.append(go.Scatter(yaxis="y2", x = dates[pips], y = quotes.closePrice[pips], 
+        mode='markers', marker=dict(color='#acc', size=len(pips) * [30])))
+    # local regionals
+    maxima, minima = regionalLocals(quotes.closePrice)
+    graphs.append(go.Scatter(yaxis="y2", x = dates[maxima], y = quotes.closePrice[maxima], 
+        mode='markers', marker=dict(color=INCREASING_COLOR, size=len(maxima) * [20])))
+    graphs.append(go.Scatter(yaxis="y2", x = dates[minima], y = quotes.closePrice[minima], 
+        mode='markers', marker=dict(color=DECREASING_COLOR, size=len(minima) * [20])))
     # SMAs
     short_rolling = quotes.loc[:, 'closePrice'].rolling(window=21).mean()
     long_rolling = quotes.loc[:, 'closePrice'].rolling(window=200).mean()
@@ -83,11 +85,15 @@ if __name__ == '__main__':
     for i in range(len(sup)):
         s = sup[i]
         supId = supIds[i]
-        if len(s) > 5:
-            graphs.append(go.Scatter(yaxis='y2', x=dates[supId + [len(dates) - 1]], y=(len(supId) + 1) * [np.max(s)],
-                               line=dict(width='1'), showlegend=False, hoverinfo = 'none'))
+        # if len(s) > 5:
+            # graphs.append(go.Scatter(yaxis='y2', x=dates[supId + [len(dates) - 1]], y=(len(supId) + 1) * [np.max(s)],
+                            #    line=dict(width='1'), showlegend=False, hoverinfo = 'none'))
     graphs.append(bbUpper)
     graphs.append(bbLower)
+    # simplified
+    indices = simplifySeries(quotes.closePrice)
+    graphs.append(go.Scatter(yaxis='y2', x=dates[indices], y=quotes.closePrice[indices],
+        line=dict(width='1')))
     ##################################### Y4 ##########################################
     # RSI
     rsi_data = computeRSI(quotes.closePrice)
@@ -116,6 +122,17 @@ if __name__ == '__main__':
                     name='Volume')
     graphs.append(volume)
     ##################################### Y3 ##########################################
+    # relative returns
+    returns = quotes.loc[:, 'closePrice'].pct_change(1)
+    log_returns = np.log(quotes.closePrice).diff()
+    returns[0] = 0
+    log_returns[0] = 0
+    relativeReturns = []
+    logReturns = []
+    for c in range(len(log_returns)):
+        logReturns.append(log_returns[c].cumsum()[0])
+    for c in range(len(log_returns)):
+        relativeReturns.append(100*(np.exp(log_returns[c].cumsum()[0]) - 1))
     relative_returns = go.Scatter(yaxis='y3', x=dates, y=relativeReturns,
                              name='SMA20', line=dict(dash='dot'))
     log_returns = go.Scatter(yaxis='y3', x=dates, y=logReturns,
