@@ -2,6 +2,27 @@
 
 import numpy as np
 import pandas as pd
+import math
+
+def hsars(prices, x = 0.05, s = 2):
+    L1 = min(prices) / (1 + x/2)
+    Ln = max(prices) * (1 + x/2)
+    n = math.log(Ln / L1) / math.log(1 + x)
+    N = int(n + 0.5)
+    X = (abs(Ln / L1))**(1 / N) - 1
+    bounds = []
+    for i in range(N+1):
+        bounds.append((L1 * (1 + X)**i))
+    freq = len(bounds) * [0]
+    for p in prices:
+        for i in range(len(bounds) - 1):
+            if p >= bounds[i] and p < bounds[i+1]:
+                freq[i] = freq[i] + 1
+    sar = []
+    for i in range(len(freq)):
+        if freq[i] >= s:
+            sar.append([bounds[i], bounds[i + 1]])
+    return sar
 
 def computeResistenceLines(openPrices, closePrices, threshold=0.02):
     support = []

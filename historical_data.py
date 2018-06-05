@@ -39,10 +39,11 @@ if __name__ == '__main__':
         quotes.loc[:, att] = pd.to_numeric(quotes[att])
     sup, supIds = computeResistenceLines(quotes.openPrice, quotes.closePrice, 0.01)
     graphs = []
+    shapes = []
     ##################################### Y2 ##########################################
+    # pips
     INCREASING_COLOR = '#17BECF'
     DECREASING_COLOR = '#7F7F7F'
-    # pips
     pips = perceptuallyImportantPoints(quotes.closePrice)
     graphs.append(go.Scatter(yaxis="y2", x = dates[pips], y = quotes.closePrice[pips], 
         mode='markers', marker=dict(color='#acc', size=len(pips) * [30])))
@@ -52,6 +53,36 @@ if __name__ == '__main__':
         mode='markers', marker=dict(color=INCREASING_COLOR, size=len(maxima) * [20])))
     graphs.append(go.Scatter(yaxis="y2", x = dates[minima], y = quotes.closePrice[minima], 
         mode='markers', marker=dict(color=DECREASING_COLOR, size=len(minima) * [20])))
+    # HSARS
+    hsar = hsars(quotes.closePrice[maxima + minima])
+    for sar in hsar:
+        shapes.append(dict(
+            type = 'line',
+            yref = 'y2',
+            x0 = dates[0],
+            y0 = (sar[0] + sar[1]) / 2,
+            x1 = dates[len(dates)-1],
+            y1 = (sar[0] + sar[1]) / 2,
+            opacity =  0.7,
+            line = dict(
+                color =  'red',
+                width = 1,
+            ),
+        ))
+        shapes.append(dict(
+            type = 'rect',
+            x0 = dates[0],
+            y0 = sar[0],
+            x1 = dates[len(dates)-1],
+            y1 = sar[1],
+            line = dict(
+                color = 'rgba(128, 0, 128, 0.3)',
+                width = 1,
+                dash = 'dot'
+            ),
+            yref = 'y2',
+            fillcolor = 'rgba(128, 0, 128, 0.1)',
+    ))
     # SMAs
     short_rolling = quotes.loc[:, 'closePrice'].rolling(window=21).mean()
     long_rolling = quotes.loc[:, 'closePrice'].rolling(window=200).mean()
@@ -198,7 +229,7 @@ if __name__ == '__main__':
             title='RSI',
             domain = [0.1, 0.4], 
         ),
-
+        shapes = shapes
         #paper_bgcolor='rgb(44,58,71)',
         #plot_bgcolor='rgb(44,58,71)'
     )
