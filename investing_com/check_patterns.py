@@ -19,7 +19,7 @@ if __name__ == '__main__':
     pattern_data = pd.read_csv(args.patterns, index_col=0)
     # check each pattern against stock data
     for row in pattern_data.itertuples():
-        print('checking', row.Pattern, 'pattern for',
+        print('checking "' + row.Pattern + '" pattern for',
               row.Symbol, '(' + row.Date + ')')
         # load stock data
         stock_data = pd.read_csv(row.Symbol + '_stock_data.csv', index_col=0)
@@ -35,4 +35,4 @@ if __name__ == '__main__':
             if day_count > 0 and profit >= expected_profit:
                 break
             day_count += 1
-        print('profit', profit, 'after', day_count, 'days.')
+        print('\t%.2f%% after %d days.' % (profit, day_count))
