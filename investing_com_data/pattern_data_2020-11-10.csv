@@ -1,0 +1,1602 @@
+Name,Symbol,Timeframe,Reliability,Pattern,Candle,CandleTime,Date,Status,created_at
+Bovespa,BVSP,1M,High,Morning Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PARANAPANEMA ON,PMAM3,1M,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,1M,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TRIUNFO PART ON,TPIS3,1M,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Whirlpool Pref,WHRL4,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+EUCATEX PN,EUCA4,1M,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+EUCATEX PN,EUCA4,1M,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Apple Inc BDR,AAPL34,1M,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Apple Inc BDR,AAPL34,1M,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3T,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,1M,Low,Bullish Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TELEF BRASIL ON,VIVT3,1M,Medium,Downside Gap Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Microsoft Corp BD.,MSFT34,1M,Low,Inverted Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ATT Inc BDR,ATTB34,1M,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,1M,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CEEE-D ON,CEED3,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1M,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1M,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Caterpillar Inc B.,CATP34,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,1M,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUSA ON,ITSA3,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ITAUSA PN,ITSA4,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+EUCATEX PN,EUCA4,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco Inter ON,BIDI3,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Merck Co Inc BDR,MRCK34,1M,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+C A Modas SA,CEAB3,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,1M,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,1M,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,1M,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+OSX BRASIL ON,OSXB3,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Chevron Corp BDR,CHVX34,1M,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1M,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,1M,Low,Thrusting Bearish,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Enauta ON,ENAT3,1M,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Instituto Hermes.,PARD3,1M,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Merck Co Inc BDR,MRCK34,1M,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,1M,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Dimed,PNVL3,1M,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Dimed,PNVL3,1M,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX Mineracao e M.,MMXM11,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+USIMINAS ON,USIM3,1M,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+MMX MINER ON,MMXM3,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+RAIADROGASIL ON,RADL3,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Johnson Johnson B.,JNJB34,1M,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,1M,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Electro Aco Alton.,EALT3,1M,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,1M,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ITAUUNIBANCO ON,ITUB3,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GRENDENE ON,GRND3,1M,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNB,BRSR6,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,1M,High,Rising Three Methods,Current,Bullish continuation,2020-11-10,wait,2020-11-10
+Renova Energia,RNEW3,1M,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+B2W DIGITAL ON,BTOW3,1M,Low,Inverted Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1M,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+COMGAS PNA,CGAS5,1M,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+M.DIASBRANCO ON,MDIA3,1M,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS PNB,ELET6,1M,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Procter Gamble Co.,PGCO34,1M,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+NEOENERGIA,NEOE3,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco BTG,BPAC11,1M,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GERDAU PN N1,GGBR4,1M,Medium,Upside Gap Three Methods,Current,Bullish continuation,2020-11-10,wait,2020-11-10
+Bovespa,BVSP,1M,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GERDAU PN N1,GGBR4,1M,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CEMIG PN,CMIG4,1M,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GENERALSHOPP ON,GSHP3,1M,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Hoteis Othon,HOOT4,1M,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Locaweb On,LWSA3,1W,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Electro Aco Alton.,EALT3,1W,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Wells Fargo Co BD.,WFCO34,1W,Medium,Downside Gap Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Johnson Johnson B.,JNJB34,1W,Medium,Downside Gap Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+M.DIASBRANCO ON,MDIA3,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Electro Aco Alton.,EALT4,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+UNIPAR ON,UNIP3,1W,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNB,BRSR6,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Anima ON,ANIM3,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS PNB,ELET6,1W,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco BTG,BPAC11,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+NATURA ON,NTCO3,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Notre Dame,GNDI3,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ConocoPhillips DR.,COPH34,1W,Medium,Downside Gap Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Mundial,MNDL3,1W,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,1W,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,1W,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PETROBRAS ON,PETR3,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,1W,High,Morning Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PETROBRAS PN,PETR4,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biomm On,BIOM3,1W,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,1W,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,1W,Low,Shooting Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR ON,BRAP3,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR PN,BRAP4,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR PN,BRAP4,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Braskem Pref B,BRKM6,1W,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,1W,High,Abandoned Baby Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PORTOBELLO ON,PTBL3,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET ON,GOAU3,1W,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS PN,ALPA4,1W,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Oracle Corp BDR,ORCL34,1W,Low,Inverted Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CELESC PN,CLSC4,1W,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Citigroup Inc BDR.,CTGP34,1W,Medium,Downside Gap Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Ser Educa ON,SEER3,1W,Medium,Ladder Bottom Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,1W,Low,Shooting Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL ON,CPLE3,1W,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL ON,CPLE3,1W,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASIL ON,BBAS3,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CELESC PN,CLSC4,1W,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1W,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COPEL ON,CPLE3,1W,Medium,Dragonfly Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,1W,Medium,Downside Gap Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+COPEL PNB,CPLE6,1W,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+3M Co BDR,MMMC34,1W,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SANTANDER BRON ,SANB3,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,1W,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNA,BRSR5,1W,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+General Electric.,GEOO34,1W,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,1W,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+IOCHP-MAXION ON,MYPK3,1W,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,1W,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+NEOENERGIA,NEOE3,1W,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Cisco Systems Inc.,CSCO34,1W,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1W,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SAO MARTINHO ON,SMTO3,1W,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ENERGIAS BR ON,ENBR3,1W,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+MAGAZ LUIZA ON,MGLU3,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+LINX ON NM,LINX3,1W,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,1W,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PORTOBELLO ON,PTBL3,1W,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,1D,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BR MALLS PAR ON,BRML3,1D,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SAO MARTINHO ON,SMTO3,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+IGUATEMI ON,IGTA3,1D,Medium,Advance Block Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,1D,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MINERVA ON,BEEF3,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+LE LIS BLANC ON,LLIS3,1D,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+C A Modas SA,CEAB3,1D,High,Abandoned Baby Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Eucatex,EUCA3,1D,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,1D,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+C A Modas SA,CEAB3,1D,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ConocoPhillips DR.,COPH34,1D,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,1D,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+BR MALLS PAR ON,BRML3,1D,Medium,Advance Block Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Atacadao,CRFB3,1D,Medium,Two Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,Medium,Advance Block Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+FERBASA PN,FESA4,1D,High,Evening Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PARANAPANEMA ON,PMAM3,1D,High,Abandoned Baby Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PARANAPANEMA ON,PMAM3,1D,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,1D,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Walt Disney Co BD.,DISB34,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+JHSF PART ON,JHSF3,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,1D,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,1D,Low,Shooting Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PepsiCo Inc BDR,PEPB34,1D,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,1D,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+NATURA ON,NTCO3,1D,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+JHSF PART ON,JHSF3,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+FERBASA PN,FESA4,1D,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Braskem Pref B,BRKM6,1D,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MINERVA ON,BEEF3,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,1D,High,Evening Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNA,USIM5,1D,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,1D,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,1D,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Oracle Corp BDR,ORCL34,1D,Low,Inverted Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Taurus Armas ON,TASA3,1D,Medium,Two Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,1D,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+RANDON PART ON,RAPT3,1D,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+RANDON PART ON,RAPT3,1D,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,1D,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,1D,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Cedro Cachoeira,CEDO3,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,1D,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,1D,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Lockheed Martin C.,LMTB34,1D,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Companhia de Sane.,SAPR4,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Companhia de Sane.,SAPR4,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,1D,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,1D,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Mitre Realty On,MTRE3,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CESP PNB,CESP6,1D,Medium,Two Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,1D,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biotoscana Invest.,GBIO33,1D,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Energ De Brasilia.,CEBR6,1D,Medium,Deliberation Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+McDonalds Corp BD.,MCDC34,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+McDonalds Corp BD.,MCDC34,1D,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1D,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1D,High,Abandoned Baby Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,1D,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer Pref,BALM4,1D,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+McDonalds Corp BD.,MCDC34,1D,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1D,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1D,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1D,High,Upside Gap Two Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GAFISA ON,GFSA3,5H,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+ConocoPhillips DR.,COPH34,5H,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,5H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PETRORIO ON NM,PRIO3,5H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,5H,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,5H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest,ALUP3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Mundial,MNDL3,5H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,5H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+MULTIPLAN ON,MULT3,5H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Lockheed Martin C.,LMTB34,5H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Braskem Pref B,BRKM6,5H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,5H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,5H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+IGUATEMI ON,IGTA3,5H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CVC BRASIL ON NM,CVCB3,5H,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,5H,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COPEL PNB,CPLE6,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TAEE Pref,TAEE4,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MINERVA ON,BEEF3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Minerva,BEEF11,5H,Low,Inverted Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+M.DIASBRANCO ON,MDIA3,5H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Brasileira De Dis.,PCAR3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,5H,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MARFRIG ON,MRFG3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+M.DIASBRANCO ON,MDIA3,5H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TAEE 3,TAEE3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,5H,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+CVC BRASIL ON NM,CVCB3,5H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+EQUATORIAL ON,EQTL3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SAO MARTINHO ON,SMTO3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TRAN PAULIST PN,TRPL4,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+AES TIETE E ON N2.,TIET3,5H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+EMBRAER ON,EMBR3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,5H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+AES TIETE E UNT N.,TIET11,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ENERGIAS BR ON,ENBR3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,5H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,5H,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,5H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,5H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,5H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biomm On,BIOM3,5H,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Microsoft Corp BD.,MSFT34,5H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,5H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,5H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Electro Aco Alton.,EALT4,5H,Low,Separating Lines Bullish,Current,Bullish continuation,2020-11-10,wait,2020-11-10
+Taurus Armas PN,TASA4,5H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Cisco Systems Inc.,CSCO34,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Instituto Hermes.,PARD3,5H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ENEVA ON NM,ENEV3,5H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Movida Participac.,MOVI3,5H,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+RUMO ON NM,RAIL3,5H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,5H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Microsoft Corp BD.,MSFT34,5H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX MINER ON,MMXM3,5H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Cosan Logistica S.,RLOG3,5H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+DIRECIONAL ON,DIRR3,5H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,5H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,5H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,5H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,5H,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,5H,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ser Educa ON,SEER3,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CEDRO PN,CEDO4,5H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GRENDENE ON,GRND3,5H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani,RANI3,5H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CIELO ON,CIEL3,1H,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,1H,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Colgate Palmolive.,COLG34,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+EQUATORIAL ON,EQTL3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+LOJAS MARISA ON,AMAR3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASILAGRO ON,AGRO3,1H,Medium,Advance Block Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Santos Brasil Par.,STBP3,1H,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS PNB,ELET6,1H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ENEVA ON NM,ENEV3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS PNB,ELET6,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS PNB,ELET6,1H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,1H,Medium,Upside Gap Three Methods,Current,Bullish continuation,2020-11-10,wait,2020-11-10
+RUMO ON NM,RAIL3,1H,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNB,USIM6,1H,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS,CTNM3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+C A Modas SA,CEAB3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1H,Low,Shooting Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,1H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,1H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Caterpillar Inc B.,CATP34,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ROSSI RESID ON,RSID3,1H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Caterpillar Inc B.,CATP34,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TECNISA ON,TCSA3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,1H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TECNISA ON,TCSA3,1H,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Cogna Educacao,COGN3,1H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Mundial,MNDL3,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TRIUNFO PART ON,TPIS3,1H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Cogna Educacao,COGN3,1H,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Ford Motor Co BDR.,FDMO34,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,1H,Medium,Gravestone Doji,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+LUPATECH ON,LUPA3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,1H,Medium,Tri-Star Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Fras Le SA,FRAS3,1H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Hoteis Othon,HOOT4,1H,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Fras Le SA,FRAS3,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ford Motor Co BDR.,FDMO34,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Fras Le SA,FRAS3,1H,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,1H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Moura Dubeux On,MDNE3,1H,Medium,Upside Gap Three Methods,Current,Bullish continuation,2020-11-10,wait,2020-11-10
+Lockheed Martin C.,LMTB34,1H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PORTO SEGURO ON,PSSA3,1H,High,Abandoned Baby Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Petrobras Distrib.,BRDT3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+UNIPAR PNB,UNIP6,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PORTO SEGURO ON,PSSA3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+UNIPAR ON,UNIP3,1H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A ON N2,KLBN3,1H,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PETROBRAS ON,PETR3,1H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PETROBRAS ON,PETR3,1H,Medium,Deliberation Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PETROBRAS ON,PETR3,1H,Medium,Advance Block Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Aliansce Sonae,ALSO3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,1H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,1H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+IGUATEMI ON,IGTA3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+HYPERMARCAS ON,HYPE3,1H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+HYPERMARCAS ON,HYPE3,1H,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+QUALICORP ON,QUAL3,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Dimed Pref,PNVL4,1H,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+FERBASA PN,FESA4,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Dimed,PNVL3,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Renova Energia Pr.,RNEW4,1H,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+OSX BRASIL ON,OSXB3,1H,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,1H,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,1H,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,1H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,1H,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CEMIG ON,CMIG3,1H,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TAEE Pref,TAEE4,1H,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TAESA UNT,TAEE11,1H,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Vivara,VIVA3,1H,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+CEMIG ON,CMIG3,1H,Medium,Upside Gap Three Methods,Current,Bullish continuation,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,1H,Low,Inverted Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,1H,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1H,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+COMGAS PNA,CGAS5,1H,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,1H,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,1H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Goldman Sachs Gro.,GSGI34,1H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Goldman Sachs Gro.,GSGI34,1H,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,1H,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Santos Brasil Par.,STBP3,30,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+LE LIS BLANC ON,LLIS3,30,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+IOCHP-MAXION ON,MYPK3,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCAMERICA ON NM,LCAM3,30,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Home Depot Inc BD.,HOME34,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Home Depot Inc BD.,HOME34,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GRENDENE ON,GRND3,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GRENDENE ON,GRND3,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,30,Medium,Gravestone Doji,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Mundial,MNDL3,30,High,Tri-Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Santos Brasil Par.,STBP3,30,Medium,Tri-Star Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+METAL LEVE ON,LEVE3,30,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+METAL LEVE ON,LEVE3,30,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biotoscana Invest.,GBIO33,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+NEOENERGIA,NEOE3,30,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,30,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,30,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Parana Sanepar Un.,SAPR11,30,High,Falling Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+EQUATORIAL ON,EQTL3,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+RANDON PART PN,RAPT4,30,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CESP ON,CESP3,30,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,30,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,30,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,30,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS ON,ELET3,30,Low,Bullish Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Bovespa,BVSP,30,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TELEF BRASIL ON,VIVT3,30,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TIM PART S/A ON,TIMS3,30,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+USIMINAS ON,USIM3,30,Low,Bullish Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,30,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNB,USIM6,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNB,USIM6,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Dimed Pref,PNVL4,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Centro de Imagem.,AALR3,30,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO PN,POMO4,30,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+VALID ON,VLID3,30,High,Dark Cloud Cover,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+TIM PART S/A ON,TIMS3,30,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Ouro Fino Saude A.,OFSA3,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Whirlpool SA,WHRL3,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Whirlpool SA,WHRL3,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+POSITIVO INF ON,POSI3,30,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Schulz SA,SHUL4,30,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TIM PART S/A ON,TIMS3,30,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+LUPATECH ON,LUPA3,30,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,30,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,30,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A UNT N2.,KLBN11,30,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Suzano Papel Celu.,SUZB3,30,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3,30,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+FERBASA PN,FESA4,30,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,30,Medium,Gravestone Doji,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Cogna Educacao,COGN3,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani,RANI3,30,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BBSEGURIDADE ON N.,BBSE3,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUSA PN,ITSA4,30,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CIA HERING ON,HGTX3,30,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUUNIBANCO ON,ITUB3,30,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SANTANDER BR UNT,SANB11,30,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GAFISA ON,GFSA3,30,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BANRISUL ON N1,BRSR3,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BANRISUL ON N1,BRSR3,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BR PROPERT ON,BRPR3,30,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,30,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,30,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BR PROPERT ON,BRPR3,30,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BR BROKERS ON,BBRK3,30,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,30,Low,Thrusting Bearish,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+LOJAS RENNER ON,LREN3,30,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,30,Medium,Tri-Star Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,30,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+EVEN ON,EVEN3,30,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MINERVA ON,BEEF3,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+EVEN ON,EVEN3,30,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+EVEN ON,EVEN3,30,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Anima ON,ANIM3,30,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+UNIPAR ON,UNIP3,30,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,30,High,Evening Doji Star,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,30,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,30,High,Abandoned Baby Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,30,High,Morning Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,30,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,30,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,30,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS ON,ELET3,15,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,15,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GAFISA ON,GFSA3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASILAGRO ON,AGRO3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CIELO ON,CIEL3,15,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS ON,ELET3,15,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,15,Low,Inverted Hammer,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CIELO ON,CIEL3,15,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Gradiente Electro.,IGBR3,15,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+United Parcel Ser.,UPSS34,15,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Renova Energia,RNEW3,15,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,15,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,15,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+RENOVA UNT,RNEW11,15,High,Abandoned Baby Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,15,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,15,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,15,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,15,Medium,Tri-Star Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,15,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,15,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+EQUATORIAL ON,EQTL3,15,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,15,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+AES TIETE E UNT N.,TIET11,15,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,15,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,15,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+CEMIG PN,CMIG4,15,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ENERGIAS BR ON,ENBR3,15,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Renova Energia,RNEW3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,15,Low,Harami Cross,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Vivara,VIVA3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,15,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Microsoft Corp BD.,MSFT34,15,Medium,Homing Pigeon,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TIM PART S/A ON,TIMS3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,15,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,15,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,15,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,15,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+ULTRAPAR ON NM,UGPA3,15,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+HELBOR ON,HBOR3,15,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+JHSF PART ON,JHSF3,15,High,Three Inside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,15,Medium,Gravestone Doji,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+UNIPAR ON,UNIP3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,15,Medium,Dragonfly Doji,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,15,Low,Hanging Man,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,15,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,15,Medium,Dragonfly Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,15,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET ON,GOAU3,15,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,15,Medium,Tri-Star Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,15,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+OSX BRASIL ON,OSXB3,15,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASKEM PNA,BRKM5,15,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN ON,CGRA3,15,Medium,Tri-Star Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,15,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,15,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Gradiente Electro.,IGBR3,15,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO PN,POMO4,15,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+OI PN,OIBR4,15,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+POSITIVO INF ON,POSI3,15,Medium,Downside Gap Three Methods,Current,Bearish continuation,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,15,Low,Belt Hold Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,15,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,15,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+VALID ON,VLID3,15,High,Three Black Crows,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,15,High,Three Outside Down,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Oracle Corp BDR,ORCL34,15,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,15,Medium,Gravestone Doji,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO ON,POMO3,15,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNA,USIM5,15,Low,Harami Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+IRB Brasil Resseg.,IRBR3,15,Low,Belt Hold Bullish,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,15,Medium,Bullish Engulfing,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,15,High,Morning Doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+Johnson Johnson B.,JNJB34,15,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+ENEVA ON NM,ENEV3,15,Medium,Bullish doji Star,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASIL ON,BBAS3,15,Low,Harami Cross Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASIL ON,BBAS3,15,Low,Harami Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Cogna Educacao,COGN3,15,Medium,Doji Star Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,15,Medium,Engulfing Bearish,Current,Bearish reversal,2020-11-10,wait,2020-11-10
+IOCHP-MAXION ON,MYPK3,15,High,Three Outside Up,Current,Bullish reversal,2020-11-10,wait,2020-11-10
+RAIADROGASIL ON,RADL3,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3T,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+ENGIE BRASILON NM.,EGIE3,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1M,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,1M,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1M,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Exxon Mobil Corp.,EXXO34,1M,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+TAEE Pref,TAEE4,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+United Parcel Ser.,UPSS34,1M,Low,Three Line Strike,1,Bullish continuation,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,1M,Low,Shooting Star,1,Bearish reversal,2020-11-10,wait,2020-11-10
+United Parcel Ser.,UPSS34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TAEE 3,TAEE3,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+C A Modas SA,CEAB3,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+C A Modas SA,CEAB3,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,1M,Low,Shooting Star,1,Bearish reversal,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,1M,High,Three Black Crows,1,Bearish reversal,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3T,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1M,Low,Harami Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Cosan Logistica S.,RLOG3,1M,High,Three Outside Down,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TRAN PAULIST PN,TRPL4,1M,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,1M,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Chevron Corp BDR,CHVX34,1M,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Morgan Stanley Ba.,MSBR34,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco Inter ON,BIDI3,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX Mineracao e M.,MMXM11,1M,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CEEE-D ON,CEED3,1M,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco Inter ON,BIDI3,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+ITAUUNIBANCO ON,ITUB3,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+ITAUSA PN,ITSA4,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CEEE-D ON,CEED3,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CEEE-D ON,CEED3,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Morgan Stanley Ba.,MSBR34,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1M,Low,Harami Cross Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,1M,Low,Three Line Strike,1,Bullish continuation,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,1M,High,Three Inside Down,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CEMIG PN,CMIG4,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+AMBEV S/A ON,ABEV3,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+ITAUSA ON,ITSA3,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+RAIADROGASIL ON,RADL3,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,1M,Low,Shooting Star,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,1M,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+RANDON PART ON,RAPT3,1M,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNB,BRSR6,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNB,BRSR6,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BANRISUL ON N1,BRSR3,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CEMIG ON,CMIG3,1M,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+METAL LEVE ON,LEVE3,1M,High,Morning Doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+ODONTOPREV ON,ODPV3,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+SANTANDER BRPN ,SANB4,1M,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Procter Gamble Co.,PGCO34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUSA ON,ITSA3,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,1M,Low,Shooting Star,1,Bearish reversal,2020-11-10,wait,2020-11-10
+JPMorgan Chase Co.,JPMC34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,1M,Medium,Advance Block Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+McDonalds Corp BD.,MCDC34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BBSEGURIDADE ON N.,BBSE3,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Whirlpool Pref,WHRL4,1M,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,1M,Low,Three Line Strike,1,Bullish continuation,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,1M,Low,Three Line Strike,1,Bullish continuation,2020-11-10,wait,2020-11-10
+Banco BMG ON,BMGB4,1M,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Procter Gamble Co.,PGCO34,1M,Low,Three Line Strike,1,Bullish continuation,2020-11-10,wait,2020-11-10
+BRASIL ON,BBAS3,1M,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,1M,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Fras Le SA,FRAS3,1W,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,1W,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Telebras,TELB3,1W,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Gradiente Electro.,IGBR3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+OSX BRASIL ON,OSXB3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Pfizer Inc BDR,PFIZ34,1W,High,Three Black Crows,1,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,1W,Low,Bullish Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+GRENDENE ON,GRND3,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,1W,Medium,Homing Pigeon,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,1W,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,1W,High,Falling Three Methods,1,Bearish continuation,2020-11-10,wait,2020-11-10
+GRENDENE ON,GRND3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Goldman Sachs Gro.,GSGI34,1W,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Merck Co Inc BDR,MRCK34,1W,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+RODOBENSIMOB ON,RDNI3,1W,Low,Bullish Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Mundial,MNDL3,1W,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BRB Pref,BSLI4,1W,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNB,BRSR6,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Bristol Myers Squ.,BMYB34,1W,Low,Shooting Star,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Mundial,MNDL3,1W,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,1W,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Electro Aco Alton.,EALT3,1W,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS,CTNM3,1W,Medium,Homing Pigeon,1,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN ON,CGRA3,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+POSITIVO INF ON,POSI3,1W,Low,Bullish Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN ON,CGRA3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1W,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,1W,Medium,Homing Pigeon,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CEDRO PN,CEDO4,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Cedro Cachoeira,CEDO3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A ON N2,KLBN3,1W,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1W,Low,Shooting Star,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASIL ON,BBAS3,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+United Parcel Ser.,UPSS34,1W,High,Three Black Crows,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco BMG ON,BMGB4,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,1W,Medium,Homing Pigeon,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,1W,High,Three Black Crows,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Camil Alimentos,CAML3,1W,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Ser Educa ON,SEER3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,1W,High,Morning Doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Boeing Co BDR,BOEI34,1W,Medium,Homing Pigeon,1,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,1W,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,1W,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,1W,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX MINER ON,MMXM3,1W,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,1W,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,1W,High,Morning Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCAMERICA ON NM,LCAM3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+C A Modas SA,CEAB3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Biomm On,BIOM3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+UNIPAR ON,UNIP3,1D,Low,Hanging Man,1,Bearish reversal,2020-11-10,wait,2020-11-10
+SABESP ON,SBSP3,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CSU CARDSYST ON,CARD3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+SABESP ON,SBSP3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TAEE 3,TAEE3,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco BTG,BPAC11,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TAEE Pref,TAEE4,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Cedro Cachoeira,CEDO3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco Inter ON,BIDI3,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+SAO MARTINHO ON,SMTO3,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,1D,Low,Harami Cross Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,1D,Low,Hanging Man,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,1D,Medium,Dragonfly Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TAEE 3,TAEE3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Microsoft Corp BD.,MSFT34,1D,High,Three Black Crows,1,Bearish reversal,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,1D,Medium,Homing Pigeon,1,Bullish reversal,2020-11-10,wait,2020-11-10
+PARANAPANEMA ON,PMAM3,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,1D,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Johnson Johnson B.,JNJB34,1D,Medium,Downside Gap Three Methods,1,Bearish continuation,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,1D,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+METAL LEVE ON,LEVE3,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CEMIG ON,CMIG3,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CEMIG ON,CMIG3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Bristol Myers Squ.,BMYB34,1D,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CEMIG PN,CMIG4,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CEMIG PN,CMIG4,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+PARANAPANEMA ON,PMAM3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+PARANAPANEMA ON,PMAM3,1D,Medium,Advance Block Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Notre Dame,GNDI3,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+FERBASA PN,FESA4,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+B3 SA Brasil Bols.,B3SA3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CYRELA REALT ON,CYRE3,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP PNB,CESP6,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Eucatex,EUCA3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Rio Paranapanema.,GEPA3,1D,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+YDUQS Part ON,YDUQ3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,1D,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,1D,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,1D,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Santos Brasil Par.,STBP3,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN ON,CGRA3,1D,Low,Hanging Man,1,Bearish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNA,USIM5,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Parana Sanepar Un.,SAPR11,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1D,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+NATURA ON,NTCO3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+EZTEC ON,EZTC3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3T,1D,Medium,Dragonfly Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3T,1D,Low,Hanging Man,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Ser Educa ON,SEER3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,1D,High,Three Black Crows,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Parana Sanepar Un.,SAPR11,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1D,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Movida Participac.,MOVI3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1D,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Via Varejo,VVAR3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Taurus Armas PN,TASA4,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Taurus Armas ON,TASA3,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR PN,BRAP4,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Minerva,BEEF11,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest,ALUP3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR ON,BRAP3,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+RANDON PART ON,RAPT3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+MAGAZ LUIZA ON,MGLU3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,High,Three Outside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCALIZA ON,RENT3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+PORTOBELLO ON,PTBL3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+WEG ON,WEGE3,1D,High,Three Inside Down,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TRAN PAULIST PN,TRPL4,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,1D,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1D,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+LOJAS AMERIC PN,LAME4,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+ECORODOVIAS ON,ECOR3,1D,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+ENEVA ON NM,ENEV3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET ON,GOAU3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET ON,GOAU3,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+LOJAS MARISA ON,AMAR3,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,1D,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+M.DIASBRANCO ON,MDIA3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+TRAN PAULIST PN,TRPL4,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+EQUATORIAL ON,EQTL3,1D,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Halliburton Co BD.,HALI34,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO ON,POMO3,1D,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO ON,POMO3,1D,Medium,Doji Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Schlumberger AG,SLBG34,1D,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,5H,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,5H,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,5H,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+PepsiCo Inc BDR,PEPB34,5H,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,5H,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+PepsiCo Inc BDR,PEPB34,5H,Medium,Bullish Engulfing,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Via Varejo,VVAR3,5H,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+The Coca Cola Co.,COCA34,5H,High,Three Inside Down,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,5H,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Biotoscana Invest.,GBIO33,5H,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,5H,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,5H,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,5H,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+SID NACIONAL ON,CSNA3,5H,High,Falling Three Methods,1,Bearish continuation,2020-11-10,wait,2020-11-10
+Walt Disney Co BD.,DISB34,5H,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Walt Disney Co BD.,DISB34,5H,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Movida Participac.,MOVI3,5H,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCAMERICA ON NM,LCAM3,5H,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,5H,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Colgate Palmolive.,COLG34,5H,Low,Inverted Hammer,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Wells Fargo Co BD.,WFCO34,5H,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,5H,Low,Thrusting Bearish,1,Bearish continuation,2020-11-10,wait,2020-11-10
+Cedro Cachoeira,CEDO3,5H,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,5H,High,Falling Three Methods,1,Bearish continuation,2020-11-10,wait,2020-11-10
+CSU CARDSYST ON,CARD3,5H,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,5H,Medium,Homing Pigeon,1,Bullish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO ON,POMO3,5H,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,5H,Medium,Deliberation Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,5H,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,5H,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+ATT Inc BDR,ATTB34,5H,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,5H,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,5H,Medium,Engulfing Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,5H,High,Falling Three Methods,1,Bearish continuation,2020-11-10,wait,2020-11-10
+Rio Paranapanema.,GEPA3,5H,Medium,Tri-Star Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+TAEE Pref,TAEE4,5H,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,5H,Low,Belt Hold Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,5H,High,Dark Cloud Cover,1,Bearish reversal,2020-11-10,wait,2020-11-10
+CSU CARDSYST ON,CARD3,5H,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,5H,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,5H,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Boeing Co BDR,BOEI34,5H,Low,Hanging Man,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1H,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,1H,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer Pref,BALM4,1H,Low,Harami Cross Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1H,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Aes Tiete Energia.,TIET2,1H,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,30,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,30,Medium,Tri-Star Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,30,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,30,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,30,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Colgate Palmolive.,COLG34,30,High,Tri-Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer Pref,BALM4,30,Low,Harami Cross Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,30,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Mundial,MNDL3,15,High,Tri-Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+COMGAS PNA,CGAS5,15,High,Tri-Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,15,Medium,Tri-Star Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,15,Medium,Tri-Star Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN ON,CGRA3,15,High,Tri-Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,15,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Telebras,TELB3,15,Medium,Tri-Star Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Biotoscana Invest.,GBIO33,15,Low,Belt Hold Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,15,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,15,Medium,Bullish doji Star,1,Bullish reversal,2020-11-10,wait,2020-11-10
+Colgate Palmolive.,COLG34,15,High,Tri-Star Bearish,1,Bearish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,15,High,Three Inside Up,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,15,Low,Harami Cross,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,15,Low,Harami Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+CCX CARVAO ON,CCXC3,15,Medium,Tri-Star Bullish,1,Bullish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,1M,Medium,Upside Gap Three Methods,2,Bullish continuation,2020-11-10,wait,2020-11-10
+Walt Disney Co BD.,DISB34,1M,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Kimberly Clark Co.,KMBB34,1M,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco Inter Unit,BIDI11,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+RODOBENSIMOB ON,RDNI3,1M,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR ON,BRAP3,1M,Medium,Deliberation Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR ON,BRAP3,1M,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1M,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUSA ON,ITSA3,1M,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Ouro Fino Saude A.,OFSA3,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Ouro Fino Saude A.,OFSA3,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+MRV ON,MRVE3,1M,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BR BROKERS ON,BBRK3,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+ENERGIAS BR ON,ENBR3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL PNB,CPLE6,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+YDUQS Part ON,YDUQ3,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+AMBEV S/A ON,ABEV3,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+CEMIG ON,CMIG3,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+CEMIG ON,CMIG3,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+AMBEV S/A ON,ABEV3,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,1M,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP ON,CESP3,1M,High,Evening Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1M,Medium,Deliberation Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1M,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Dimed Pref,PNVL4,1M,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Notre Dame,GNDI3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,1M,Low,Shooting Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+JPMorgan Chase Co.,JPMC34,1M,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+YDUQS Part ON,YDUQ3,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+UNIPAR PNB,UNIP6,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,1M,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Dimed,PNVL3,1M,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,1M,High,Three Inside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX Mineracao e M.,MMXM11,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX Mineracao e M.,MMXM11,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+TRAN PAULIST PN,TRPL4,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+NATURA ON,NTCO3,1M,Medium,Advance Block Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,1M,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+OI PN,OIBR4,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Cisco Systems Inc.,CSCO34,1M,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1M,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1M,High,Upside Gap Two Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+PETRORIO ON NM,PRIO3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Telebras,TELB3,1M,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CSU CARDSYST ON,CARD3,1M,Medium,Upside Gap Three Methods,2,Bullish continuation,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1M,High,Abandoned Baby Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Azul SA Pref,AZUL4,1M,Low,Shooting Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CSU CARDSYST ON,CARD3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN ON,CGRA3,1M,Low,Hanging Man,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Halliburton Co BD.,HALI34,1M,Medium,Upside Gap Three Methods,2,Bullish continuation,2020-11-10,wait,2020-11-10
+Anima ON,ANIM3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+SANTANDER BRPN ,SANB4,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+WEG ON,WEGE3,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+OI PN,OIBR4,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNA,USIM5,1M,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco Inter PN,BIDI4,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+OI ON N1,OIBR3,1M,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+OI ON N1,OIBR3,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Cosan Logistica S.,RLOG3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1M,High,Evening Doji Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,1M,High,Dark Cloud Cover,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BR BROKERS ON,BBRK3,1M,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,1M,Low,Hanging Man,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco Inter ON,BIDI3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,1M,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Enauta ON,ENAT3,1M,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Enauta ON,ENAT3,1M,High,Evening Doji Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Cosan Logistica S.,RLOG3,1M,Low,Three Line Strike,2,Bullish continuation,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,1W,Low,Bullish Hammer,2,Bullish reversal,2020-11-10,wait,2020-11-10
+ENERGIAS BR ON,ENBR3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+LINX ON NM,LINX3,1W,Medium,Two Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Exxon Mobil Corp.,EXXO34,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Bovespa,BVSP,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Bovespa,BVSP,1W,Low,Three Line Strike,2,Bullish continuation,2020-11-10,wait,2020-11-10
+ELETROBRAS PNB,ELET6,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ENGIE BRASILON NM.,EGIE3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+METAL LEVE ON,LEVE3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ENGIE BRASILON NM.,EGIE3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,1W,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,1W,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+General Electric.,GEOO34,1W,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco BTG,BPAC11,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Azul SA Pref,AZUL4,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+3M Co BDR,MMMC34,1W,High,Three Inside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP PNB,CESP6,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+EUCATEX PN,EUCA4,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Eucatex,EUCA3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+General Electric.,GEOO34,1W,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+The Coca Cola Co.,COCA34,1W,Medium,Break Away Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS ON,ELET3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1W,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CEDRO PN,CEDO4,1W,High,Evening Doji Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS,CTNM3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CEDRO PN,CEDO4,1W,Medium,Upside Gap Three Methods,2,Bullish continuation,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,1W,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Petrobras Distrib.,BRDT3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Renova Energia,RNEW3,1W,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+FERBASA PN,FESA4,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A ON N2,KLBN3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+UNIPAR ON,UNIP3,1W,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BR PROPERT ON,BRPR3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+GERDAU MET PN,GOAU4,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Gradiente Electro.,IGBR3,1W,High,Dark Cloud Cover,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Taurus Armas PN,TASA4,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Chevron Corp BDR,CHVX34,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Taurus Armas PN,TASA4,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+LOCALIZA ON,RENT3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+NATURA ON,NTCO3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Whirlpool SA,WHRL3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+BRF SA ON,BRFS3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Movida Participac.,MOVI3,1W,Medium,Upside Gap Three Methods,2,Bullish continuation,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,1W,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,1W,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+QUALICORP ON,QUAL3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Chevron Corp BDR,CHVX34,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Ford Motor Co BDR.,FDMO34,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Energ De Brasilia.,CEBR6,1W,Low,Hanging Man,2,Bearish reversal,2020-11-10,wait,2020-11-10
+GENERALSHOPP ON,GSHP3,1W,Low,Inverted Hammer,2,Bullish reversal,2020-11-10,wait,2020-11-10
+JHSF PART ON,JHSF3,1W,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUSA ON,ITSA3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CSU CARDSYST ON,CARD3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+PORTOBELLO ON,PTBL3,1W,Medium,Upside Gap Three Methods,2,Bullish continuation,2020-11-10,wait,2020-11-10
+PORTOBELLO ON,PTBL3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+CEEE-D ON,CEED3,1W,Medium,Homing Pigeon,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1W,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,1W,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+AES TIETE E ON N2.,TIET3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL PNB,CPLE6,1W,Low,Three Line Strike,2,Bullish continuation,2020-11-10,wait,2020-11-10
+Dimed,PNVL3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Moura Dubeux On,MDNE3,1W,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1W,Medium,Upside Gap Three Methods,2,Bullish continuation,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,1W,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,1W,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,1W,High,Dark Cloud Cover,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL ON,CPLE3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Anima ON,ANIM3,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL PNB,CPLE6,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Kimberly Clark Co.,KMBB34,1W,Low,Belt Hold Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Lockheed Martin C.,LMTB34,1W,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Companhia de Sane.,SAPR4,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,1W,High,Dark Cloud Cover,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Parana Sanepar Un.,SAPR11,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+EVEN ON,EVEN3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+EVEN ON,EVEN3,1W,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Pre.,ALUP4,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+RANDON PART PN,RAPT4,1W,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ArcelorMittal BDR.,ARMT34,1W,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Instituto Hermes.,PARD3,1W,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1D,Low,Shooting Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,1D,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+PORTO SEGURO ON,PSSA3,1D,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,1D,Medium,Deliberation Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Bovespa,BVSP,1D,Low,Hanging Man,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,1D,Low,Belt Hold Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,High,Morning Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,1D,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1D,High,Dark Cloud Cover,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1D,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ENERGIAS BR ON,ENBR3,1D,Medium,Advance Block Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Pfizer Inc BDR,PFIZ34,1D,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,High,Three Inside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Amazon.com Inc BD.,AMZO34,1D,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,1D,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,High,Morning Doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,Medium,Bullish Engulfing,2,Bullish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,1D,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,1D,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,1D,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,1D,High,Abandoned Baby Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,1D,High,Morning Doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,1D,Medium,Gravestone Doji,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR PN,BRAP4,1D,High,Three Inside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+TRIUNFO PART ON,TPIS3,1D,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,1D,High,Three Outside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Bristol Myers Squ.,BMYB34,1D,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1D,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+KLABIN S/A UNT N2.,KLBN11,1D,Low,Inverted Hammer,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1D,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,1D,High,Three Inside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Dimed Pref,PNVL4,1D,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,1D,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,1D,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,1D,Medium,Bullish Engulfing,2,Bullish reversal,2020-11-10,wait,2020-11-10
+VALE ON,VALE3,1D,High,Three Inside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+SID NACIONAL ON,CSNA3,1D,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,5H,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+GOL PN N2,GOLL4,5H,Low,Shooting Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Telebras,TELB3,5H,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,5H,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+PORTOBELLO ON,PTBL3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+VALID ON,VLID3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CSU CARDSYST ON,CARD3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,5H,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Nike Inc BDR,NIKE34,5H,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,5H,High,Three Outside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Boeing Co BDR,BOEI34,5H,Medium,Deliberation Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,5H,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Goldman Sachs Gro.,GSGI34,5H,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,5H,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+B3 SA Brasil Bols.,B3SA3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CIELO ON,CIEL3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP PNB,CESP6,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS ON,ELET3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,5H,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,5H,Low,Shooting Star,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Boeing Co BDR,BOEI34,5H,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,5H,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Renova Energia Pr.,RNEW4,5H,Low,Inverted Hammer,2,Bullish reversal,2020-11-10,wait,2020-11-10
+ELETROBRAS PNB,ELET6,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+TAESA UNT,TAEE11,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+NEOENERGIA,NEOE3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ECORODOVIAS ON,ECOR3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COMGAS PNA,CGAS5,5H,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,5H,Medium,Bullish Engulfing,2,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Dimed Pref,PNVL4,5H,High,Morning Doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,5H,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASKEM PNA,BRKM5,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Walt Disney Co BD.,DISB34,5H,Low,Hanging Man,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS PN,ALPA4,5H,Low,Bullish Hammer,2,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCALIZA ON,RENT3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+NATURA ON,NTCO3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Via Varejo,VVAR3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR PN,BRAP4,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Hoteis Othon,HOOT4,5H,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+TOTVS ON,TOTS3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+MMX MINER ON,MMXM3,5H,High,Three Inside Up,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,5H,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,5H,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+M.DIASBRANCO ON,MDIA3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,5H,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CYRELA REALT ON,CYRE3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+EUCATEX PN,EUCA4,5H,High,Abandoned Baby Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Ferbasa,FESA3,5H,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+AREZZO CO ON,ARZZ3,5H,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Goldman Sachs Gro.,GSGI34,5H,Medium,Deliberation Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Schlumberger AG,SLBG34,5H,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+METAL LEVE ON,LEVE3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+SANTANDER BRPN ,SANB4,5H,Medium,Deliberation Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+SANTANDER BRPN ,SANB4,5H,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,5H,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Petrobras Distrib.,BRDT3,5H,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,5H,Medium,Deliberation Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+LOCAMERICA ON NM,LCAM3,5H,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+RAIADROGASIL ON,RADL3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL ON N1,BRSR3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Movida Participac.,MOVI3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+The Coca Cola Co.,COCA34,5H,Low,Harami Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+BRB Pref,BSLI4,5H,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Dimed,PNVL3,5H,High,Three Black Crows,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Electro Aco Alton.,EALT4,1H,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1H,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,1H,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,1H,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,1H,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,1H,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,1H,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,1H,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,1H,Medium,Advance Block Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,1H,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Schlumberger AG,SLBG34,1H,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,1H,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+CEEE-GT ON,EEEL3,1H,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,1H,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco BMG ON,BMGB4,1H,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,1H,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,1H,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Biotoscana Invest.,GBIO33,1H,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,30,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Braskem Pref B,BRKM6,30,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+GENERALSHOPP ON,GSHP3,30,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+CEEE-GT ON,EEEL3,30,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer Pref,BALM4,30,Medium,Bullish Engulfing,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,30,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,30,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,30,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,30,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Lockheed Martin C.,LMTB34,30,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,30,High,Dark Cloud Cover,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Telebras,TELB3,30,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,30,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+COELCE PNA,COCE5,30,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Oracle Corp BDR,ORCL34,30,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,30,Low,Hanging Man,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP PNA,CESP5,30,High,Falling Three Methods,2,Bearish continuation,2020-11-10,wait,2020-11-10
+Brb Banco,BSLI3,30,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Rio Paranapanema.,GEPA3,30,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,30,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,30,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,30,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,30,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,30,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+SAO CARLOS ON,SCAR3,30,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,30,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,30,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer Pref,BALM4,15,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Hoteis Othon,HOOT4,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,15,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,15,Medium,Bullish doji Star,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Whirlpool SA,WHRL3,15,Low,Belt Hold Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+CEEE-GT ON,EEEL3,15,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,15,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,15,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Biotoscana Invest.,GBIO33,15,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,15,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,15,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,15,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Bristol Myers Squ.,BMYB34,15,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Oracle Corp BDR,ORCL34,15,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,15,High,Abandoned Baby Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Whirlpool SA,WHRL3,15,Medium,Engulfing Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Lockheed Martin C.,LMTB34,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,15,Low,Harami Cross,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,15,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Braskem Pref B,BRKM6,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,15,High,Tri-Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3T,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,15,Low,Harami Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,15,Low,Harami Cross Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+GENERALSHOPP ON,GSHP3,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,15,Medium,Doji Star Bearish,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Goldman Sachs Gro.,GSGI34,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+BANRISUL ON N1,BRSR3,15,Medium,Bullish Engulfing,2,Bullish reversal,2020-11-10,wait,2020-11-10
+BANRISUL ON N1,BRSR3,15,Low,Belt Hold Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,15,High,Three Outside Down,2,Bearish reversal,2020-11-10,wait,2020-11-10
+Brb Banco,BSLI3,15,Medium,Tri-Star Bullish,2,Bullish reversal,2020-11-10,wait,2020-11-10
+MRV ON,MRVE3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+EUCATEX PN,EUCA4,1M,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+EUCATEX PN,EUCA4,1M,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+RODOBENSIMOB ON,RDNI3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+MRV ON,MRVE3,1M,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+FLEURY ON,FLRY3,1M,Medium,Advance Block Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+HYPERMARCAS ON,HYPE3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Cogna Educacao,COGN3,1M,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+EZTEC ON,EZTC3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+AREZZO CO ON,ARZZ3,1M,Medium,Advance Block Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR PN,BRAP4,1M,Medium,Deliberation Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR PN,BRAP4,1M,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+EZTEC ON,EZTC3,1M,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+EZTEC ON,EZTC3,1M,High,Evening Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten,CTKA3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET ON,GOAU3,1M,Medium,Advance Block Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,1M,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+JHSF PART ON,JHSF3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1M,High,Falling Three Methods,3,Bearish continuation,2020-11-10,wait,2020-11-10
+Hoteis Othon,HOOT4,1M,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+DIRECIONAL ON,DIRR3,1M,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Enauta ON,ENAT3,1M,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,1M,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+DIRECIONAL ON,DIRR3,1M,High,Evening Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1M,Medium,Deliberation Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Atacadao,CRFB3,1M,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+Brasileira De Dis.,PCAR3,1M,High,Evening Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+JPMorgan Chase Co.,JPMC34,1M,High,Rising Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+Telebras,TELB3,1M,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+Telebras,TELB3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Ouro Fino Saude A.,OFSA3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+TAEE Pref,TAEE4,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Atacadao,CRFB3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Brasileira De Dis.,PCAR3,1M,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASILAGRO ON,AGRO3,1M,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Brasileira De Dis.,PCAR3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,1M,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ITAUSA ON,ITSA3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUSA ON,ITSA3,1M,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+ITAUSA PN,ITSA4,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,1M,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+COSAN ON,CSAN3,1M,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASILAGRO ON,AGRO3,1M,High,Evening Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Log Commercial Pr.,LOGG3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Ouro Fino Saude A.,OFSA3,1M,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+COPEL ON,CPLE3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,1M,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+The Coca Cola Co.,COCA34,1M,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco BMG ON,BMGB4,1M,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1M,Medium,Gravestone Doji,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BBSEGURIDADE ON N.,BBSE3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1M,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Fras Le SA,FRAS3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+ENERGIAS BR ON,ENBR3,1M,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+SAO CARLOS ON,SCAR3,1M,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,1M,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+SAO CARLOS ON,SCAR3,1M,Medium,Deliberation Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+SAO CARLOS ON,SCAR3,1M,Medium,Advance Block Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+ITAUSA PN,ITSA4,1M,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+NEOENERGIA,NEOE3,1W,Low,Separating Lines Bullish,3,Bullish continuation,2020-11-10,wait,2020-11-10
+Renova Energia,RNEW3,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Halliburton Co BD.,HALI34,1W,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Netflix Inc DRC,NFLX34,1W,High,Evening Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Schlumberger AG,SLBG34,1W,Medium,Homing Pigeon,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+EVEN ON,EVEN3,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+RENOVA UNT,RNEW11,1W,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+RENOVA UNT,RNEW11,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Notre Dame,GNDI3,1W,High,Abandoned Baby Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP ON,CESP3,1W,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+CEMIG PN,CMIG4,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,1W,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCALIZA ON,RENT3,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,1W,Medium,Deliberation Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+OSX BRASIL ON,OSXB3,1W,Low,Harami Cross Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Energ De Brasilia.,CEBR6,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+TELEF BRASIL ON,VIVT3,1W,Low,Bullish Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Netflix Inc DRC,NFLX34,1W,High,Abandoned Baby Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1W,Low,Three Line Strike,3,Bullish continuation,2020-11-10,wait,2020-11-10
+International Bus.,IBMB34,1W,High,Three Black Crows,3,Bearish reversal,2020-11-10,wait,2020-11-10
+eBay Inc BDR,EBAY34,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,1W,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,1W,Low,Hanging Man,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Qualcomm Inc BDR,QCOM34,1W,High,Upside Gap Two Crows,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CEDRO PN,CEDO4,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CEDRO PN,CEDO4,1W,High,Three Outside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+POSITIVO INF ON,POSI3,1W,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Telebras,TELB3,1W,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+AES TIETE E ON N2.,TIET3,1W,High,Three Outside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ATT Inc BDR,ATTB34,1W,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Energ De Brasilia.,CEBR6,1W,Medium,Dragonfly Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Energ De Brasilia.,CEBR6,1W,Low,Hanging Man,3,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1W,Low,Hanging Man,3,Bearish reversal,2020-11-10,wait,2020-11-10
+VALID ON,VLID3,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Netflix Inc DRC,NFLX34,1W,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1W,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Whirlpool SA,WHRL3,1W,High,Morning Doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+RANDON PART PN,RAPT4,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,1W,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Bardella Pref,BDLL4,1W,High,Three Outside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCALIZA ON,RENT3,1W,Medium,Deliberation Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNA,BRSR5,1W,Low,Bullish Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+JPMorgan Chase Co.,JPMC34,1W,Low,Bullish Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco Inter ON,BIDI3,1W,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A ON N2,KLBN3,1W,High,Falling Three Methods,3,Bearish continuation,2020-11-10,wait,2020-11-10
+YDUQS Part ON,YDUQ3,1W,Low,Inverted Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+LOPES BRASIL ON,LPSB3,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BBSEGURIDADE ON N.,BBSE3,1W,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX MINER ON,MMXM3,1W,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,1W,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Gafisa,GFSA1,1W,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1W,High,Three Outside Down,3,Bearish reversal,2020-11-10,wait,2020-11-10
+3M Co BDR,MMMC34,1W,Low,Harami Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BR MALLS PAR ON,BRML3,1W,Low,Separating Lines Bullish,3,Bullish continuation,2020-11-10,wait,2020-11-10
+IRB Brasil Resseg.,IRBR3,1W,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Kimberly Clark Co.,KMBB34,1W,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+IRB Brasil Resseg.,IRBR3,1W,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Vivara,VIVA3,1W,Low,Harami Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Cogna Educacao,COGN3,1W,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cogna Educacao,COGN3,1W,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco Inter PN,BIDI4,1W,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco Inter PN,BIDI4,1W,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Battistella Admin.,BTTL3,1W,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET ON,GOAU3,1W,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Hoteis Othon,HOOT4,1W,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PORTO SEGURO ON,PSSA3,1W,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+LOCAMERICA ON NM,LCAM3,1D,Medium,Advance Block Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Karsten Pref,CTKA4,1D,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Oracle Corp BDR,ORCL34,1D,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,1D,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,1D,Medium,Dragonfly Doji,3,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,1D,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+FLEURY ON,FLRY3,1D,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET PN,GOAU4,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Unipar Carbocloro.,UNIP5,1D,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Pfizer Inc BDR,PFIZ34,1D,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Notre Dame,GNDI3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+GAFISA ON,GFSA3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Pfizer Inc BDR,PFIZ34,1D,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+GRENDENE ON,GRND3,1D,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1D,High,Three Black Crows,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Mitre Realty On,MTRE3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Microsoft Corp BD.,MSFT34,1D,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESCO PN EJ N1.,BBDC4,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Morgan Stanley Ba.,MSBR34,1D,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL PNB,CPLE6,1D,High,Abandoned Baby Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+COPEL PNB,CPLE6,1D,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+FedEx Corp BDR,FDXB34,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BR PROPERT ON,BRPR3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNB,BRSR6,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNA,BRSR5,1D,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+GOL PN N2,GOLL4,1D,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+SANTANDER BR UNT,SANB11,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ATT Inc BDR,ATTB34,1D,High,Three Outside Down,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Verizon Communica.,VERZ34,1D,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Ford Motor Co BDR.,FDMO34,1D,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Renova Energia,RNEW3,1D,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+CCR SA ON,CCRO3,1D,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Camil Alimentos,CAML3,1D,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Camil Alimentos,CAML3,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BBSEGURIDADE ON N.,BBSE3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Netflix Inc DRC,NFLX34,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Netflix Inc DRC,NFLX34,1D,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1D,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Honeywell DRC,HONB34,1D,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1D,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Intel Corp BDR,ITLC34,1D,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1D,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,1D,High,Falling Three Methods,3,Bearish continuation,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1D,High,Morning Doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED2,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,1D,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+TECNISA ON,TCSA3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1D,High,Morning Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,1D,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+EVEN ON,EVEN3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,1D,Low,Separating Lines Bullish,3,Bullish continuation,2020-11-10,wait,2020-11-10
+ALPARGATAS PN,ALPA4,1D,High,Three Outside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,1D,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,1D,High,Morning Doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3,1D,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Walt Disney Co BD.,DISB34,1D,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Halliburton Co BD.,HALI34,1D,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MRV ON,MRVE3,1D,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,1D,Low,Bullish Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1D,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+TECNISA ON,TCSA3,5H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+WEG ON,WEGE3,5H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+WEG ON,WEGE3,5H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL ENERGIAON NM.,CPFE3,5H,Medium,Two Crows,3,Bearish reversal,2020-11-10,wait,2020-11-10
+B2W DIGITAL ON,BTOW3,5H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+COMGAS PNA,CGAS5,5H,Low,Bullish Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ECORODOVIAS ON,ECOR3,5H,Medium,Two Crows,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Moura Dubeux On,MDNE3,5H,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+TECNISA ON,TCSA3,5H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,5H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,5H,Medium,Upside Gap Three Methods,3,Bullish continuation,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,5H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Celulose Irani Pr.,RANI4,5H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Hewlett Packard C.,HPQB34,5H,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Colgate Palmolive.,COLG34,5H,High,Three Black Crows,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,5H,High,Three Outside Down,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Gradiente Electro.,IGBR3,5H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BANRISUL PNA,BRSR5,5H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Fras Le SA,FRAS3,5H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+COELCE ON,COCE3,5H,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,5H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Alupar Invest Uni.,ALUP11,5H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,5H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,5H,Low,Inverted Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,5H,Low,Shooting Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CELESC PN,CLSC4,5H,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Whirlpool Pref,WHRL4,5H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Smiles Fidelidade.,SMLS3T,5H,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+MAGAZ LUIZA ON,MGLU3,5H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ATT Inc BDR,ATTB34,5H,High,Three Outside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Companhia de Sane.,SAPR4,5H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,5H,High,Three Outside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ETERNIT ON,ETER3,5H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+SANEPAR ON N2,SAPR3,5H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Brasileira De Dis.,PCAR3,5H,High,Abandoned Baby Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Brasileira De Dis.,PCAR3,5H,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO ON,POMO3,5H,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO ON,POMO3,5H,High,Abandoned Baby Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,5H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Apple Inc BDR,AAPL34,5H,Low,Inverted Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Morgan Stanley Ba.,MSBR34,5H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GERDAU MET ON,GOAU3,5H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX MINER ON,MMXM3,5H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MMX MINER ON,MMXM3,5H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Dimed Pref,PNVL4,5H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+YDUQS Part ON,YDUQ3,5H,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+YDUQS Part ON,YDUQ3,5H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+YDUQS Part ON,YDUQ3,5H,High,Abandoned Baby Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+LOCAMERICA ON NM,LCAM3,5H,High,Three Outside Down,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BRASKEM ON,BRKM3,5H,Medium,Two Crows,3,Bearish reversal,2020-11-10,wait,2020-11-10
+GERDAU PN N1,GGBR4,5H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,5H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,5H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A PN,KLBN4,5H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,5H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Suzano Papel Celu.,SUZB3,5H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,5H,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CESP ON,CESP3,5H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Wal Mart Stores I.,WALM34,5H,Medium,Downside Gap Three Methods,3,Bearish continuation,2020-11-10,wait,2020-11-10
+Brinquedos Estrel.,ESTR4,5H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+IRB Brasil Resseg.,IRBR3,1H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,1H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Atom Participacoe.,ATOM3,1H,Medium,Stick Sandwich,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Banco Inter ON,BIDI3,1H,Low,Inverted Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+COELCE PNA,COCE5,1H,Low,Harami Cross Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Aes Tiete Energia.,TIET2,1H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+OSX BRASIL ON,OSXB3,1H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Biotoscana Invest.,GBIO33,1H,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,1H,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Refinaria de Petr.,RPMG3,1H,Medium,Dragonfly Doji,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GAFISA ON,GFSA3,1H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GAFISA ON,GFSA3,1H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Aes Tiete Energia.,TIET2,1H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+General Electric.,GEOO34,1H,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+AES TIETE E UNT N.,TIET11,1H,Low,Harami Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco Inter Unit,BIDI11,1H,Low,Inverted Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,1H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Visa Inc BDR,VISA34,1H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Lockheed Martin C.,LMTB34,1H,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Wells Fargo Co BD.,WFCO34,1H,Low,Bullish Hammer,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,1H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+CTEEP,TRPL3,1H,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Gradiente Electro.,IGBR3,1H,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,1H,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+United Parcel Ser.,UPSS34,1H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,1H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Companhia de Sane.,SAPR4,1H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Parana Sanepar Un.,SAPR11,1H,High,Evening Doji Star,3,Bearish reversal,2020-11-10,wait,2020-11-10
+LUPATECH ON,LUPA3,1H,Low,Separating Lines Bullish,3,Bullish continuation,2020-11-10,wait,2020-11-10
+COMGAS PNA,CGAS5,1H,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+COTEMINAS PN,CTNM4,1H,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Taurus Armas ON,TASA3,1H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ENGIE BRASILON NM.,EGIE3,1H,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Parana Sanepar Un.,SAPR11,1H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+JBS ON,JBSS3,1H,High,Three Outside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+OI PN,OIBR4,1H,Medium,Stick Sandwich,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Ferbasa,FESA3,1H,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,1H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Braskem Pref B,BRKM6,1H,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Ogx Petroleo e Ga.,DMMO3,1H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+AREZZO CO ON,ARZZ3,1H,High,Three Inside Up,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Hewlett Packard C.,HPQB34,1H,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Duke Energy Intl.,GEPA4,1H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNB,USIM6,1H,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+HYPERMARCAS ON,HYPE3,1H,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNB,USIM6,1H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BR MALLS PAR ON,BRML3,1H,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Renova Energia,RNEW3,1H,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,1H,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cisco Systems Inc.,CSCO34,1H,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+TECNISA ON,TCSA3,1H,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Santos Brasil Par.,STBP3,1H,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Afluente Transmis.,AFLT3,1H,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+SARAIVA LIVR PN,SLED4,1H,Medium,Stick Sandwich,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,1H,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Celpe Pref,CEPE5,30,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+KLABIN S/A UNT N2.,KLBN11,30,High,Three Outside Down,3,Bearish reversal,2020-11-10,wait,2020-11-10
+ROSSI RESID ON,RSID3,30,High,Morning Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Hoteis Othon,HOOT4,30,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,30,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,30,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PARANAPANEMA ON,PMAM3,30,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Pref ,MAPT4,30,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Goldman Sachs Gro.,GSGI34,30,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,30,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+ROSSI RESID ON,RSID3,30,High,Morning Doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+LOJAS MARISA ON,AMAR3,30,Medium,Stick Sandwich,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Ferbasa,FESA3,30,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+McDonalds Corp BD.,MCDC34,30,Low,Hanging Man,3,Bearish reversal,2020-11-10,wait,2020-11-10
+OSX BRASIL ON,OSXB3,30,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,30,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Comcast Corp BDR,CMCS34,30,Medium,Deliberation Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Moura Dubeux On,MDNE3,30,Low,Thrusting Bearish,3,Bearish continuation,2020-11-10,wait,2020-11-10
+Banco BMG ON,BMGB4,30,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cemepe Investimen.,MAPT3,30,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Boeing Co BDR,BOEI34,30,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,30,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR ON,BRAP3,30,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+TRIUNFO PART ON,TPIS3,30,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Dommo Energia,DMMO11,30,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ATT Inc BDR,ATTB34,30,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Biosev ON,BSEV3,30,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BRADESPAR ON,BRAP3,30,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+VALE ON,VALE3,30,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+TAEE 3,TAEE3,30,Low,Belt Hold Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BRB Pref,BSLI4,30,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,30,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+BR Insurance Corr.,APER3,30,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Taurus Armas ON,TASA3,30,Medium,Gravestone Doji,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Saraiva,SLED3,30,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,30,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Biomm On,BIOM3,30,High,Morning Doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Biomm On,BIOM3,30,High,Morning Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,30,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+MARCOPOLO ON,POMO3,30,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+3M Co BDR,MMMC34,30,High,Falling Three Methods,3,Bearish continuation,2020-11-10,wait,2020-11-10
+Cisco Systems Inc.,CSCO34,30,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Banco BMG ON,BMGB4,30,Medium,Dragonfly Doji,3,Bullish reversal,2020-11-10,wait,2020-11-10
+CEDRO PN,CEDO4,30,Medium,Doji Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+ROSSI RESID ON,RSID3,30,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+MasterCard Inc BD.,MSCD34,15,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+3M Co BDR,MMMC34,15,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+3M Co BDR,MMMC34,15,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Rio Paranapanema.,GEPA3,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Freeport Mcmoran.,FCXO34,15,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Morgan Stanley Ba.,MSBR34,15,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Xerox Corp BDR,XRXB34,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ALPARGATAS ON,ALPA3,15,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Starbucks Corp BD.,SBUB34,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,15,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+PDG REALT ON,PDGR3,15,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Braskem Pref B,BRKM6,15,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Kimberly Clark Co.,KMBB34,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,15,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Exxon Mobil Corp.,EXXO34,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,15,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+GRAZZIOTIN PN,CGRA4,15,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Baumer Pref,BALM4,15,Medium,Bullish Engulfing,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Baumer,BALM3,15,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Merck Co Inc BDR,MRCK34,15,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Ferbasa,FESA3,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Aes Tiete Energia.,TIET2,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Hewlett Packard C.,HPQB34,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Colgate Palmolive.,COLG34,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Cisco Systems Inc.,CSCO34,15,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNB,USIM6,15,Low,Harami Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+USIMINAS PNB,USIM6,15,Low,Harami Cross,3,Bullish reversal,2020-11-10,wait,2020-11-10
+ATT Inc BDR,ATTB34,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+BRB Pref,BSLI4,15,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,15,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+De Santa Catar,CLSC3,15,Low,Belt Hold Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Taurus Armas ON,TASA3,15,Low,Harami Cross Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+RANDON PART ON,RAPT3,15,Medium,Bullish doji Star,3,Bullish reversal,2020-11-10,wait,2020-11-10
+Boeing Co BDR,BOEI34,15,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+CPFL RENOVAVON NM.,CPRE3,15,Medium,Tri-Star Bullish,3,Bullish reversal,2020-11-10,wait,2020-11-10
+United Parcel Ser.,UPSS34,15,High,Tri-Star Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10
+Bank of America C.,BOAC34,15,Medium,Engulfing Bearish,3,Bearish reversal,2020-11-10,wait,2020-11-10

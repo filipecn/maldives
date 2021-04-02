@@ -3,7 +3,7 @@ import argparse
 import numpy as np
 import pandas as pd
 from b3_register import B3Register
-from technical_analysis import *
+from ta import *
 from utils import *
 import plotly as py
 import plotly.graph_objs as go
