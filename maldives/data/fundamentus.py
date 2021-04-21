@@ -1,6 +1,6 @@
 import pandas as pd
 from bs4 import BeautifulSoup
-from common import web
+from ..common import web
 import re
 
 
