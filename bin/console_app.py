@@ -130,7 +130,7 @@ if __name__ == "__main__":
         data.support_lines = ta.resistance_lines("s")
         data.resistance_lines = ta.resistance_lines("r")
         ta.run(run, data)
-
+        plot_ta(ta)
         current_price = ta.data['close'].iloc[-1]
         support = last_resistance_line(ta.resistance_lines('s'))
         support_distance = -(current_price - support) / current_price * 100

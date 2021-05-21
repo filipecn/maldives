@@ -4,12 +4,13 @@ from datetime import datetime, timedelta
 from abc import ABC, abstractmethod
 from ..models.price import Price
 from ..models.order import Order
-from ..brokers.broker import Broker
+from ..models.dealer import Dealer
 
 
 class Strategy(ABC):
-    price: Price
-    broker: Broker
+    assets: [str]
+    prices: [Price]
+    dealer: Dealer
 
     def __init__(self, interval=60, *args, **kwargs):
         self._timer = None
@@ -24,37 +25,35 @@ class Strategy(ABC):
     def _run(self):
         self.is_running = False
         self.start()
-        self.set_price(self.broker.symbol_ticker())
+        self.prices = self.dealer.symbol_ticker(self.assets)
         self.run()
-
-    def set_price(self, price):
-        self.price = price
 
     @abstractmethod
     def run(self):
         pass
 
-    def backtrace(self, start: datetime, end=None, interval=60 * 60 * 24):
-        self.broker.download_history(start, end)
+    def backtrace(self, start: datetime, end=None, interval='1d'):
         if end is None:
             end = datetime.now()
-        current_time = start
-        while current_time < end:
-            # check if date is valid
-            price = self.broker.historical_symbol_ticker_candle(current_time)
-            if price.date == current_time:
-                self.set_price(price)
+        prices = self.dealer.historical_symbol_ticker_candle(self.assets, start, end, interval)
+        current_index = 0
+        while True:
+            self.prices = []
+            for asset in prices:
+                if len(prices[asset]) > current_index:
+                    self.prices.append(prices[asset][current_index])
+            if len(self.prices) == 0:
+                break
+            else:
                 self.run()
-            current_time += timedelta(seconds=interval)
+            current_index += 1
 
     def start(self):
         if not self.is_running:
-            print(datetime.now())
             if self._timer is None:
                 self.next_call = time.time()
             else:
                 self.next_call += self.interval
-
             self._timer = threading.Timer(self.next_call - time.time(), self._run)
             self._timer.start()
             self.is_running = True
@@ -65,7 +64,7 @@ class Strategy(ABC):
 
     def buy(self, **kwargs):
         order = Order(
-            symbol=self.broker.get_symbol(),
+            symbol=self.dealer.get_symbol(self.asset),
             type=Order.BUY,
             **kwargs
         )
@@ -73,12 +72,12 @@ class Strategy(ABC):
 
     def sell(self, **kwargs):
         order = Order(
-            symbol=self.broker.get_symbol(),
+            symbol=self.dealer.get_symbol(self.asset),
             type=Order.SELL,
             **kwargs
         )
         self.order(order)
 
     def order(self, order: Order):
-        broker_order = self.broker.order(order)
+        broker_order = self.dealer.order(order)
         print(broker_order)

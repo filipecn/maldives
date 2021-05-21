@@ -1,82 +1,24 @@
 import glfw
 import OpenGL.GL as gl
+import moderngl_window as mglw
 from imgui.integrations.glfw import GlfwRenderer
 import imgui
-
-from pyrr import Matrix44, Vector4
-
-
-class OrthographicCamera:
-    def __init__(self, pos, width, w, h):
-        self.__pos = pos
-        self.__width = width
-        self.__aspect_ratio = w / h
-        self.__left = -1
-        self.__right = 1
-        self.__top = 1
-        self.__bottom = -1
-        self.__viewport = w, h
-        self.update()
-
-    def update(self):
-        self.__left = self.__pos[0] - self.__width / 2
-        self.__right = self.__pos[0] + self.__width / 2
-        self.__top = self.__pos[1] + self.__width / self.__aspect_ratio / 2
-        self.__bottom = self.__pos[1] - self.__width / self.__aspect_ratio / 2
-
-    def frustrum(self):
-        return self.__left, self.__bottom, self.__right - self.__left, self.__top - self.__bottom
-
-    def pos(self):
-        return self.__pos
-
-    def viewport(self):
-        return self.__viewport
-
-    def set_pos(self, pos):
-        self.__pos = pos
-        self.update()
-
-    def set_viewport(self, w, h):
-        self.__viewport = w, h
-        self.__aspect_ratio = w / h
-        self.update()
-
-    def zoom(self, d):
-        if d < 0 and self.__width > 1:
-            self.__width += 0.1 * self.__width
-        else:
-            self.__width -= 0.1 * self.__width
-        self.update()
-
-    def project(self, x, y):
-        return self.__viewport[0] * (x - self.__left) / (self.__right - self.__left), \
-               self.__viewport[1] * (y - self.__bottom) / (self.__top - self.__bottom)
-
-    def unproject(self, x, y):
-        return x * (self.__right - self.__left) / self.__viewport[0] + self.__left, \
-               y * (self.__top - self.__bottom) / self.__viewport[1] + self.__bottom
-
-    def unproject_distance(self, dx, dy):
-        return dx * (self.__right - self.__left) / self.__viewport[0], \
-               dy * (self.__top - self.__bottom) / self.__viewport[1]
-
-    def transform(self):
-        return Matrix44.orthogonal_projection(self.__left, self.__right, self.__bottom, self.__top, -1, 1, dtype='f4')
-
-    def ndc_from_screen_coordinates(self, sp):
-        return 2 * sp[0] / self.__viewport[0] - 1, 2 * sp[1] / self.__viewport[1] - 1
+from pathlib import Path
+from moderngl_window.integrations.imgui import ModernglWindowRenderer
+from abc import ABC, abstractmethod
+from .scene_object import SceneObject
+from .camera import OrthographicCamera
 
 
 def app(render, width=1280, height=720, window_name="Maldives"):
-    '''
+    """
 
     :param render:
     :param width:
     :param height:
     :param window_name:
     :return:
-    '''
+    """
     imgui.create_context()
     window = impl_glfw_init(width, height, window_name)
     impl = GlfwRenderer(window)
@@ -152,3 +94,85 @@ def draw_table(data, *selected_row):
             imgui.text(row[c])
             imgui.next_column()
         i += 1
+
+
+class App(mglw.WindowConfig, ABC):
+    gl_version = (3, 3)
+    title = "App"
+    resource_dir = (Path(__file__).parent.parent / 'resources').resolve()
+    aspect_ratio = None
+    scene: [SceneObject]
+    camera: OrthographicCamera
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        imgui.create_context()
+        self.imgui = ModernglWindowRenderer(self.wnd)
+        self.scene = []
+        self.camera = OrthographicCamera((0, 0), 5, self.wnd)
+
+    def render(self, time: float, frametime: float):
+        imgui.new_frame()
+        self.render_callback(time)
+        imgui.render()
+        self.imgui.render(imgui.get_draw_data())
+        pass
+
+    @abstractmethod
+    def render_callback(self, time: float):
+        pass
+
+    def resize(self, width: int, height: int):
+        self.imgui.resize(width, height)
+
+    def key_event(self, key, action, modifiers):
+        self.imgui.key_event(key, action, modifiers)
+
+    def mouse_position_event(self, x, y, dx, dy):
+        self.imgui.mouse_position_event(x, y, dx, dy)
+
+    def mouse_drag_event(self, x, y, dx, dy):
+        self.imgui.mouse_drag_event(x, y, dx, dy)
+        if not imgui.get_io().want_capture_mouse:
+            wd = self.camera.unproject_distance(dx, dy)
+            control_camera = True
+            for o in self.scene:
+                o.mouse_drag_event(wd[0], wd[1])
+                if o.want_use_mouse:
+                    control_camera = False
+            if control_camera:
+                self.camera.mouse_drag_event(dx, dy)
+
+    def mouse_scroll_event(self, x_offset, y_offset):
+        self.imgui.mouse_scroll_event(x_offset, y_offset)
+        if not imgui.get_io().want_capture_mouse:
+            control_camera = True
+            for o in self.scene:
+                o.mouse_scroll_event(x_offset, y_offset)
+                if o.want_use_mouse:
+                    control_camera = False
+            if control_camera:
+                self.camera.mouse_scroll_event(x_offset, y_offset)
+
+    def mouse_press_event(self, x, y, button):
+        self.imgui.mouse_press_event(x, y, button)
+        if not imgui.get_io().want_capture_mouse:
+            sp = x, self.camera.viewport()[1] - y
+            wp = self.camera.unproject(sp[0], sp[1])
+            for o in self.scene:
+                o.mouse_press_event(wp[0], wp[1], button)
+
+    def mouse_release_event(self, x: int, y: int, button: int):
+        self.imgui.mouse_release_event(x, y, button)
+        if not imgui.get_io().want_capture_mouse:
+            sp = x, self.camera.viewport()[1] - y
+            wp = self.camera.unproject(sp[0], sp[1])
+            for o in self.scene:
+                o.mouse_release_event(wp[0], wp[1], button)
+
+    def unicode_char_entered(self, char):
+        self.imgui.unicode_char_entered(char)
+
+
+def run_app(app):
+    mglw.run_window_config(app)

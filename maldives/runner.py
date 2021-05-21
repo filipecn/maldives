@@ -24,18 +24,6 @@ symbol_list = fund.get_symbol_list("../tests/raw_fund_html", False)
 print(csl[csl.Symbol == selected_symbol])
 
 
-# compressed = inv.compress_cs_patterns(csl)
-
-# for symbol, patterns in compressed.items():
-#     for pattern, candle_times in patterns.items():
-#         for candle_time, time_frames in candle_times.items():
-#             for time_frame, registers in time_frames.items():
-#                 for register in registers:
-#                     print(symbol, pattern, candle_time, time_frame, register.date, register.candle)
-#     break
-# exit(1)
-
-
 def symbol_data_file():
     return "../data/" + selected_symbol + '_yf_data'
 
@@ -43,6 +31,45 @@ def symbol_data_file():
 def check_data():
     if not os.path.exists(symbol_data_file()):
         yfc.download(selected_symbol, symbol_data_file())
+
+
+class MainApp(App):
+    input_text = ""
+    selected_symbol = ""
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        # scene
+        self.scene.append(CandleStickChart(self))
+
+    # render
+    def render_callback(self, time: float, frametime: float):
+        if imgui.begin_main_menu_bar():
+            if imgui.begin_menu("File", True):
+                clicked_quit, selected_quit = imgui.menu_item(
+                    "Quit", 'Cmd+Q', False, True
+                )
+                if clicked_quit:
+                    exit(1)
+                imgui.end_menu()
+            changed, value = imgui.input_text("", self.input_text, 30)
+            if changed:
+                imgui.set_next_window_position(imgui.get_item_rect_min().x,
+                                               imgui.get_item_rect_max().y)
+                imgui.set_next_window_size(imgui.get_item_rect_size().x, 0)
+                if imgui.begin("##popup", False,
+                               imgui.WINDOW_NO_TITLE_BAR | imgui.WINDOW_NO_MOVE | imgui.WINDOW_NO_RESIZE):
+                    for index, row in symbol_list.iterrows():
+                        if value.upper() in row[0]:
+                            opened, selected = imgui.selectable(row[0] + " - " + row[2])
+                            if imgui.is_item_clicked():
+                                input_text = row[0]
+                                selected_symbol = row[0]
+                imgui.end()
+            if imgui.button("download"):
+                yfc.download(self.selected_symbol, symbol_data_file())
+            imgui.end_main_menu_bar()
+        pass
 
 
 class WindowEvents(mglw.WindowConfig):
@@ -136,4 +163,4 @@ class WindowEvents(mglw.WindowConfig):
 
 
 if __name__ == "__main__":
-    mglw.run_window_config(WindowEvents)
+    run_app(MainApp)

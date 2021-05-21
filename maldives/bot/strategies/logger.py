@@ -8,12 +8,15 @@ class Logger(Strategy):
 
     def run(self):
         logging.info('*******************************')
-        logging.info('date: %s', self.price.date)
-        logging.info('current: %f', self.price.current)
-        logging.info('open: %f', self.price.open)
-        logging.info('close: %f', self.price.close)
-        logging.info('low: %f', self.price.low)
-        logging.info('high: %f', self.price.high)
-        logging.info('volume: %d', self.price.volume)
-        logging.info('*******************************')
+        for price in self.prices:
+            logging.info('symbol: %s', price.symbol)
+            logging.info('date: %s', price.date)
+            logging.info('current: %f', price.current)
+            logging.info('open: %f', price.open)
+            logging.info('close: %f', price.close)
+            logging.info('low: %f', price.low)
+            logging.info('high: %f', price.high)
+            logging.info('volume: %d', price.volume)
+            logging.info('interval: %s', price.interval)
+            logging.info('-----------------------------')
 

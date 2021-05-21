@@ -1,5 +1,6 @@
 import numpy as np
 import math
+from pandas import DataFrame
 
 
 def min_rw_index(prices, start, end):
@@ -34,7 +35,35 @@ def max_rw_index(prices, start, end):
     return matching_index
 
 
+def get_closest_resistance(values_and_indices, price, current_index):
+    values = values_and_indices[0]
+    indices = values_and_indices[1]
+    value = 10000000
+    resistance_index = -1
+    for i in range(len(values)):
+        avg = np.array(values[i]).mean()
+        if price <= avg <= value and min(indices[i]) <= current_index:
+            value = avg
+            resistance_index = i
+    return value, resistance_index
+
+
+def get_closest_support(values_and_indices, price, current_index):
+    values = values_and_indices[0]
+    indices = values_and_indices[1]
+    value = -10000000
+    support_index = -1
+    for i in range(len(values)):
+        avg = np.array(values[i]).mean()
+        if value <= avg <= price and min(indices[i]) <= current_index:
+            value = avg
+            support_index = i
+    return value, support_index
+
+
 class TA:
+    data: DataFrame
+
     def __init__(self, data):
         self.data = data.reset_index(drop=False)
 
@@ -43,6 +72,36 @@ class TA:
 
         for i in range(len(close_prices)):
             callback(self, i, close_prices[i], user_data)
+
+    # PATTERNS
+    def candle_directions(self, tail=0):
+        if tail == 0:
+            tail = len(self.data['close'])
+        close_prices = self.data['close'].tail(tail).to_list()
+        open_prices = self.data['open'].tail(tail).to_list()
+        colors = tail * [1]
+        for i in range(tail):
+            if close_prices[i] < open_prices[i]:
+                colors[i] = -1
+        return colors
+
+    def reversals(self):
+        close_prices = self.data['close'].to_list()
+        open_prices = self.data['open'].to_list()
+        r = len(close_prices) * [0]
+        for i in range(2, len(close_prices)):
+            min_0 = min([open_prices[i - 2], close_prices[i - 2]])
+            min_1 = min([open_prices[i - 1], close_prices[i - 1]])
+            min_2 = min([open_prices[i - 0], close_prices[i - 0]])
+            if min_1 < min_0 and min_1 < min_2:
+                r[i] = -1
+                continue
+            max_0 = min([open_prices[i - 2], close_prices[i - 2]])
+            max_1 = min([open_prices[i - 1], close_prices[i - 1]])
+            max_2 = min([open_prices[i - 0], close_prices[i - 0]])
+            if max_1 > max_0 and max_1 > max_2:
+                r[i] = 1
+        return r
 
     # INDICATORS
     def resistance_lines(self, resistance_type, threshold=0.02):
@@ -76,6 +135,10 @@ class TA:
             t_0 = min(open_prices[i - 1], close_prices[i - 1])
             t_1 = min(open_prices[i + 0], close_prices[i + 0])
             t_2 = min(open_prices[i + 1], close_prices[i + 1])
+            if resistance_type == 'r':
+                t_0 = max(open_prices[i - 1], close_prices[i - 1])
+                t_1 = max(open_prices[i + 0], close_prices[i + 0])
+                t_2 = max(open_prices[i + 1], close_prices[i + 1])
             check = t_1 >= t_0 and t_1 >= t_2
             if resistance_type == "s":
                 check = t_1 <= t_0 and t_1 <= t_2
@@ -211,6 +274,31 @@ class TA:
             elif mac[i] < 0 and mac[i - 1] > 0:
                 signal[i] = -1
         return mac, signal
+
+    # MEASURES
+    def pct_change(self, window_size=1):
+        prices = self.data["close"]
+        return prices.pct_change(periods=window_size)
+
+    def max_in_range(self, start_index: int = 0, end_index: int = -1):
+        if end_index < 0:
+            end_index = len(self.data) - 1
+        prices = self.data["close"].to_list()
+        i = max_rw_index(prices, start_index, end_index)
+        return prices[i], i - start_index
+
+    def max_pct_in_range(self, start_index: int = 0, end_index: int = -1):
+        if end_index < 0:
+            end_index = len(self.data) - 1
+        prices = self.data["close"].to_list()
+        i = max_rw_index(prices, start_index, end_index)
+        return (prices[i] - prices[start_index]) / prices[start_index] * 100.0, i - start_index
+
+    def single_pct_change(self, start_index: int = 0, end_index: int = -1):
+        if end_index < 0:
+            end_index = len(self.data) - 1
+        prices = self.data["close"].to_list()
+        return (prices[end_index] - prices[start_index]) / prices[start_index] * 100.0
 
     # SIMPLIFICATION
     def pips(self, n=5, distance_type="euclidean"):
