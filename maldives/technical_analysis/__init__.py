@@ -65,7 +65,7 @@ class TA:
     data: DataFrame
 
     def __init__(self, data):
-        self.data = data.reset_index(drop=False)
+        self.data = data.reset_index(drop=True)
 
     def run(self, callback, user_data):
         close_prices = self.data["close"].to_list()
@@ -156,6 +156,24 @@ class TA:
                     ids.append([i])
 
         return values, ids
+
+    def resistance_lines_for_price(self, price: float, min_strength=0, threshold=0.02):
+        values, ids = self.resistance_lines('r', threshold)
+        resistance_levels = []
+        for i in range(len(values)):
+            resistance_level = np.array(values[i]).mean()
+            if resistance_level > price and len(values[i]) >= min_strength:
+                resistance_levels.append((resistance_level, len(values[i]), min(ids[i])))
+        return sorted(resistance_levels)
+
+    def support_lines_for_price(self, price: float, min_strength=0, threshold=0.02):
+        values, ids = self.resistance_lines('s', threshold)
+        resistance_levels = []
+        for i in range(len(values)):
+            resistance_level = np.array(values[i]).mean()
+            if resistance_level < price and len(values[i]) >= min_strength:
+                resistance_levels.append((resistance_level, len(values[i]), min(ids[i])))
+        return sorted(resistance_levels, reverse=True)
 
     def rsi(self, initial_size=14, window_size=14):
         """

@@ -9,6 +9,8 @@ from maldives.bot.brokers.yq_broker import YQBroker
 from maldives.bot.exchanges.binance_exchange import BinanceExchange
 from maldives.bot.models.wallet import Wallet
 from my_wallet_window import MyWalletWindow
+from backtrace_window import StrategyBacktraceWindow
+from maldives.bot.strategies.mr_little_robot import MrLittleRobot
 import logging
 
 from maldives.graphics.candlestick_model import *
@@ -71,6 +73,7 @@ class MainApp(App):
     b3_wallet: Wallet
     # windows
     my_wallet_window: MyWalletWindow
+    strategy_backtrace_window: StrategyBacktraceWindow
     # gui
     symbol_list = fund.get_symbol_list("../tests/raw_fund_html", False)
     input_text = ""
@@ -84,11 +87,16 @@ class MainApp(App):
         self.curves = []
         self.b3_dealer = YQBroker()
         self.b3_wallet = Wallet()
+        self.b3_wallet.load_cache('../data/transactions.csv')
+        self.b3_wallet.log()
         self.my_wallet_window = MyWalletWindow(self.b3_wallet)
+        self.strategy_backtrace_window = StrategyBacktraceWindow()
 
     # render
     def render_callback(self, time: float):
         self.my_wallet_window.draw()
+        self.strategy_backtrace_window.draw()
+
         self.menu_bar()
         for o in self.scene:
             o.draw(self.camera)
@@ -104,6 +112,7 @@ class MainApp(App):
 
     def cleanup(self):
         del self.my_wallet_window
+        self.b3_wallet.save_cache('../data/transactions.csv')
         del self.b3_wallet
 
     def menu_bar(self):
@@ -135,10 +144,11 @@ class MainApp(App):
     def load_symbol(self, symbol):
         logging.info("loading symbol %s", symbol)
         self.b3_dealer.historical_symbol_ticker_candle(symbol,
-                                                       datetime(year=2021, day=1, month=1))
+                                                       datetime(year=2021, day=4, month=1),
+                                                       datetime(year=2021, day=20, month=5))
         # data = pd.read_csv('../data/petr4.sa')
         data = self.b3_dealer.historical_data[
-            self.b3_dealer.historical_data.symbol == self.b3_dealer.get_symbol(symbol)]
+            self.b3_dealer.historical_data.symbol == self.b3_dealer.get_symbol_ticker(symbol)]
         if len(data):
             self.scene[0].set_data(data)
             self.ta_data.set_data(data, self.scene[0].timeline)
@@ -160,4 +170,10 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s: %(message)s",
                         level=logging.INFO,
                         datefmt="%H:%M:%S")
-    run_app(MainApp)
+
+    start = datetime(year=2021, day=4, month=1)
+    strategy = MrLittleRobot(60 * 60 * 24)
+    strategy.dealer = YQBroker()
+    strategy.dealer.historical_symbol_ticker_candle("petr4", start)
+    strategy.backtrace(start)
+    # run_app(MainApp)

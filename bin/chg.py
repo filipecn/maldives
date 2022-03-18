@@ -39,7 +39,7 @@ assets = ['BTC',
 
 data = exchange.historical_symbol_ticker_candle(assets, datetime(year=2021, day=27, month=4), None, '1m')
 
-symbols = exchange.get_symbol(assets)
+symbols = exchange.get_symbol_ticker(assets)
 hs = []
 for s in symbols:
     hs.append(exchange.historical_data[exchange.historical_data.symbol == s])

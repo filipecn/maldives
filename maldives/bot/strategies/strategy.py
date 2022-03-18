@@ -5,48 +5,68 @@ from abc import ABC, abstractmethod
 from ..models.price import Price
 from ..models.order import Order
 from ..models.dealer import Dealer
+from ..models.wallet import Wallet
 
 
 class Strategy(ABC):
-    assets: [str]
-    prices: [Price]
+    money: float
+    wallet: Wallet
     dealer: Dealer
+    iteration_number: int
+    symbols_of_interest: []
 
-    def __init__(self, interval=60, *args, **kwargs):
-        self._timer = None
+    def __init__(self, interval: int):
+        self.wallet = Wallet()
         self.interval = interval
-        self.args = args
-        self.kwargs = kwargs
+        self._timer = None
         self.is_running = False
         self.next_call = time.time()
-        self.portfolio = {}
-        self.asset = ''
+        self.money = 0.0
+        self.iteration_number = 0
+        self.current_time = datetime.now()
+        # backtrace variables
+        self.running_backtrace = False
+        self.symbols_of_interest = []
+        self.prepared_backtrace = False
+        self.jump_weekends = False
 
     def _run(self):
         self.is_running = False
         self.start()
-        self.prices = self.dealer.symbol_ticker(self.assets)
         self.run()
+
+    @abstractmethod
+    def prepare_backtrace(self):
+        pass
+
+    @abstractmethod
+    def prepare_backtrace_instance(self):
+        pass
 
     @abstractmethod
     def run(self):
         pass
 
-    def backtrace(self, start: datetime, end=None, interval='1d'):
+    def backtrace(self, start: datetime, end=None):
+        self.running_backtrace = True
         if end is None:
             end = datetime.now()
-        prices = self.dealer.historical_symbol_ticker_candle(self.assets, start, end, interval)
-        current_index = 0
-        while True:
-            self.prices = []
-            for asset in prices:
-                if len(prices[asset]) > current_index:
-                    self.prices.append(prices[asset][current_index])
-            if len(self.prices) == 0:
-                break
-            else:
-                self.run()
-            current_index += 1
+        self.current_time = start
+        if not self.prepared_backtrace:
+            self.prepare_backtrace()
+            self.prepared_backtrace = True
+        while self.current_time < end:
+            self.current_time += timedelta(seconds=self.interval)
+            if self.jump_weekends and self.current_time.isoweekday() > 5:
+                continue
+            self.run()
+            self.iteration_number += 1
+        self.running_backtrace = False
+
+    def bootstrap(self, iterations: int, start: datetime, end=None):
+        for i in range(iterations):
+            self.prepare_backtrace_instance()
+            self.backtrace(start, end)
 
     def start(self):
         if not self.is_running:
@@ -64,7 +84,7 @@ class Strategy(ABC):
 
     def buy(self, **kwargs):
         order = Order(
-            symbol=self.dealer.get_symbol(self.asset),
+            symbol=self.dealer.get_symbol_ticker(self.asset),
             type=Order.BUY,
             **kwargs
         )
@@ -72,7 +92,7 @@ class Strategy(ABC):
 
     def sell(self, **kwargs):
         order = Order(
-            symbol=self.dealer.get_symbol(self.asset),
+            symbol=self.dealer.get_symbol_ticker(self.asset),
             type=Order.SELL,
             **kwargs
         )
