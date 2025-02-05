@@ -1,0 +1,7 @@
+numpy==1.26.4
+tensorflow
+urwid
+pandas
+scikit-learn
+pip-review
+
