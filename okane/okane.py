@@ -32,11 +32,11 @@ class App:
 
     def __init__(self):
         self.data = io.load_data(Path("/home/filipecn/dev/maldives/okane/input"))
-        self.data = cleanup_data(self.data)
-        self.classifier = OneHotMatrix(
+        self.data = process_descriptions(self.data)
+        self.classifier = Classifier(
             Path("/home/filipecn/dev/maldives/okane/input/labeled_data.csv")
         )
-        exit(0)
+        sys.exit(0)
 
         self.data = self.data.sort_values(by=["Date"]).reset_index(drop=True)
 

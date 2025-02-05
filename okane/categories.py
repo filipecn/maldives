@@ -5,11 +5,10 @@ import pandas as pd
 import okane.io as io
 import re
 from tensorflow import keras
-from tensorflow.keras import layers
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-import tensorflow as tf
 from sklearn.model_selection import train_test_split
+import tensorflow as tf
 
 from okane.io import IOColumns
 
@@ -220,7 +219,14 @@ class Descriptor:
         return ans
 
 
-def cleanup_data(data):
+def process_descriptions(data) -> pd.DataFrame:
+    """
+    Cleanup transaction text by running a set of Descriptor rules.
+
+    :param DataFrame data: Transaction history with the description column.
+    :return: copy of data with an extra column "desc" containing the generated
+             description.
+    """
     descriptor = Descriptor()
     descriptor.add_rule(Rule(r"[^\w\s]", r" "))
     descriptor.add_rule(Rule(r"\d+", r" "))
@@ -233,73 +239,94 @@ def cleanup_data(data):
     return data
 
 
-def compute_one_hot_matrix(corpus):
-    # Create a set of unique words in the corpus
-    unique_words = set()
-    for sentence in corpus:
-        for word in sentence.split():
-            unique_words.add(word.lower())
+def create_rnn_model(input_size, output_size):
+    ## Define the embedding dimension
+    EMBEDDING_DIM = 128
 
-    # unique word to an index
-    word_to_index = {}
-    for i, word in enumerate(unique_words):
-        word_to_index[word] = i
+    rnn = keras.Sequential()
 
-    # Create one-hot encoded vectors for
-    # each word in the corpus
-    one_hot_vectors = []
-    for sentence in corpus:
-        vector = np.zeros(len(unique_words))
-        for word in sentence.split():
-            vector[word_to_index[word.lower()]] = 1
-        one_hot_vectors.append(vector)
+    print(input_size, output_size)
+    rnn.add(keras.layers.Input(shape=(input_size,)))
+    rnn.add(keras.layers.BatchNormalization())
+    rnn.add(keras.layers.Dense(20, activation="relu", name="dense_layer_1"))
+    rnn.add(keras.layers.Dense(10, activation="relu", name="dense_layer_2"))
+    rnn.add(keras.layers.Dense(output_size, activation="softmax", name="output"))
 
-    one_hot_matrix = pd.DataFrame(one_hot_vectors, columns=list(unique_words))
-    one_hot_matrix["count"] = one_hot_matrix.sum(axis=1, numeric_only=True)
-    one_hot_matrix["desc"] = corpus
-
-    return one_hot_matrix
+    return rnn
 
 
-class OneHotMatrix:
+def train_model(x, y, label_count):
+
+    BATCH_SIZE = 128
+    EPOCHS = 20
+    VALIDATION_SPLIT = 0.2
+
+    y_one_hot = tf.one_hot(y, label_count)
+
+    model = create_rnn_model(x.shape[1], label_count)
+    print(model.summary())
+    model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
+    model_fit = model.fit(
+        x,
+        y_one_hot,
+        batch_size=BATCH_SIZE,
+        epochs=EPOCHS,
+        verbose=2,
+        validation_split=VALIDATION_SPLIT,
+    )
+
+    return model
+
+
+def test_model(model, x_test, y_test, label_count):
+    results = model.evaluate(x_test, tf.one_hot(y_test, label_count), batch_size=128)
+    print("test loss, test acc:", results)
+    prediction = model.predict(x_test[:1])
+    print("prediction shape:", prediction.shape)
+    print(prediction)
+
+
+class Classifier:
     def __init__(self, path):
+
+        # read labeled data
         df = pd.read_csv(path)
-        df = cleanup_data(self.df)
 
-        # self.one_hot_matrix = compute_one_hot_matrix(self.df["desc"])
-        # self.x = self.one_hot_matrix.drop(columns=["count", "desc"])
-        # self.y = self.df[io.IOColumns.CATEGORY]
+        # generate clean descriptions
+        df = process_descriptions(df)
 
+        # retrieve list of labels from Category data
         label_map = {
             cat: index for index, cat in enumerate(np.unique(df[io.IOColumns.CATEGORY]))
         }
+        df["y"] = [label_map[x] for x in df[io.IOColumns.CATEGORY]]
 
-        num_classes = len(label_map)
-
-        def one_hot_label(label):
-            label = tf.one_hot(label, num_classes)
-            return label
-
-        df["one_hot_label"] = [
-            one_hot_label(label_map[x]) for x in df[io.IOColumns.CATEGORY]
-        ]
-
+        # prepare learn data
         df_train, df_test = train_test_split(df, test_size=0.2, random_state=1)
 
-        y_train = np.asarray(df_train["one_hot_label"])
-        y_test = np.asarray(df_test["one_hot_label"])
+        # X
 
+        # setup parameters
         max_words = 300
-
+        max_words_by_sentence = 10
+        # retrieve vocab from "desc" data
         tokenizer = Tokenizer(num_words=max_words)
         tokenizer.fit_on_texts(df_train["desc"].values)
-
+        # generate word id sequences for train and test sets
         sequences_train = tokenizer.texts_to_sequences(df_train["desc"].values)
         sequences_test = tokenizer.texts_to_sequences(df_test["desc"].values)
+        # normalize sequence sizes
+        x_train = pad_sequences(sequences_train, maxlen=max_words_by_sentence).astype(
+            "int32"
+        )
+        x_test = pad_sequences(sequences_test, maxlen=max_words_by_sentence).astype(
+            "int32"
+        )
 
-        X_train = pad_sequences(sequences_train, maxlen=max_words_by_sentence)
-        X_test = pad_sequences(sequences_test, maxlen=max_words_by_sentence)
+        # y
 
-        print(X_train.shape)
-        print(X_test.shape)
-        print(label_map)
+        y_train = np.asarray(df_train["y"])
+        y_test = np.asarray(df_test["y"])
+
+        model = train_model(x_train, y_train, len(label_map))
+        test_model(model, x_test, y_test, len(label_map))
